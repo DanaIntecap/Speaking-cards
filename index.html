@@ -189,4 +189,242 @@ logo-intecap.png" alt="INTECAP">
 </div>
 
 <div class="logo-center">
-ingles
+ingles-para-todos.png" alt="English Journey">
+</div>
+
+<h1>ENGLISH JOURNEY</h1>
+
+<h2>Speaking Cards • 5-8 Minute Speaking Challenge</h2>
+
+</div>
+
+<div class="info-box">
+
+<h2>About this Activity</h2>
+
+<p>
+This activity is designed for pair work and small group interaction. Students take turns asking and answering speaking questions related to the selected unit. The activity promotes communication, confidence, vocabulary retrieval and meaningful use of English.
+</p>
+
+<p>
+<strong>Estimated Duration:</strong> 5–8 Minutes
+</p>
+
+<h2>Learning Objective</h2>
+
+<p>
+Develop confidence and fluency in spoken English through short interactive conversations using vocabulary and language structures from the selected unit.
+</p>
+
+<h2>Instructions</h2>
+
+<ol>
+<li>Click <strong>🎲 New Card</strong> to display a random question.</li>
+<li>One student asks the question.</li>
+<li>Another student answers using a complete sentence whenever possible.</li>
+<li>Use <strong>🔊 Listen</strong> to hear the pronunciation.</li>
+<li>Use <strong>💡 Show Hint</strong> only when support is needed.</li>
+<li>Ask at least one follow-up question.</li>
+<li>Switch roles after each card.</li>
+<li>Continue until the assigned practice time is completed.</li>
+</ol>
+
+<h2>Follow-Up Questions Reminder</h2>
+
+<ul>
+<li>What about you?</li>
+<li>How about you?</li>
+<li>And you?</li>
+<li>Why?</li>
+<li>When?</li>
+<li>Where?</li>
+<li>Who with?</li>
+<li>Really?</li>
+<li>Tell me more.</li>
+<li>Can you explain more?</li>
+</ul>
+
+<p>
+<strong>Remember:</strong> A conversation is more than one answer.
+</p>
+
+<h2>Success Criteria</h2>
+
+<ul>
+<li>I answer using complete sentences.</li>
+<li>I use vocabulary from the unit.</li>
+<li>I participate actively.</li>
+<li>I ask at least one follow-up question.</li>
+<li>I communicate in English.</li>
+<li>I help maintain the conversation.</li>
+</ul>
+
+</div>
+
+<div class="challenge-box">
+
+<strong>🏆 Speaking Challenge</strong>
+
+<ol>
+<li>Answer the question.</li>
+<li>Ask a follow-up question.</li>
+<li>Keep the conversation going for at least 30 seconds.</li>
+</ol>
+
+</div>
+
+<button class="btn-primary" onclick="nextCard()">
+🎲 New Card
+</button>
+
+<button class="btn-listen" onclick="playQuestion()">
+🔊 Listen Question
+</button>
+
+<button class="btn-primary" onclick="toggleHint()">
+💡 Show Hint
+</button>
+
+<div class="card">
+
+<div id="topic" class="topic">
+Topic
+</div>
+
+<div id="question" class="question">
+Click "New Card" to start.
+</div>
+
+<div id="hintBox" class="hint-box hidden"></div>
+
+</div>
+
+<div id="counter" class="counter"></div>
+
+<footer>
+English Journey Educational Resources © INTECAP
+</footer>
+
+</div>
+
+<script>
+
+let allQuestions = [];
+let remainingQuestions = [];
+let currentCard = null;
+
+fetch("questions.json")
+.then(response => response.json())
+.then(data => {
+
+    allQuestions = [...data];
+    remainingQuestions = [...allQuestions];
+
+    updateCounter();
+
+})
+.catch(error => {
+
+    document.getElementById("question").innerHTML =
+    "Error loading questions.json";
+
+    console.error(error);
+
+});
+
+function nextCard(){
+
+    if(remainingQuestions.length === 0){
+
+        remainingQuestions = [...allQuestions];
+
+    }
+
+    const randomIndex =
+    Math.floor(
+        Math.random() *
+        remainingQuestions.length
+    );
+
+    currentCard =
+    remainingQuestions[randomIndex];
+
+    remainingQuestions.splice(
+        randomIndex,
+        1
+    );
+
+    document.getElementById("topic").innerHTML =
+    currentCard.Topic || "General";
+
+    document.getElementById("question").innerHTML =
+    currentCard.Question;
+
+    document.getElementById("hintBox")
+    .classList.add("hidden");
+
+    updateCounter();
+
+}
+
+function toggleHint(){
+
+    if(!currentCard){
+        return;
+    }
+
+    const hint =
+    document.getElementById("hintBox");
+
+    if(
+        !currentCard.Hint ||
+        currentCard.Hint.trim() === ""
+    ){
+
+        hint.innerHTML =
+        "<strong>No hint available for this card.</strong>";
+
+    }else{
+
+        hint.innerHTML =
+        "<strong>Hint:</strong><br><br>" +
+        currentCard.Hint;
+
+    }
+
+    hint.classList.toggle("hidden");
+
+}
+
+function playQuestion(){
+
+    if(!currentCard){
+        return;
+    }
+
+    speechSynthesis.cancel();
+
+    const msg =
+    new SpeechSynthesisUtterance(
+        currentCard.Question
+    );
+
+    msg.lang = "en-US";
+    msg.rate = 0.95;
+
+    speechSynthesis.speak(msg);
+
+}
+
+function updateCounter(){
+
+    document.getElementById("counter").innerHTML =
+    "Cards Remaining: " +
+    remainingQuestions.length;
+
+}
+
+</script>
+
+</body>
+</html>
