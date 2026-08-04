@@ -1,313 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>English Journey Speaking Cards</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    background:#0060AA;
+    margin:0;
+    padding:20px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+}
+
+.banner{
+    text-align:center;
+    background:#0060AA;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+.logo-left img{
+    max-height:40px;
+}
+
+.logo-center img{
+    max-height:140px;
+}
+
+.filters{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:10px;
+    margin:20px 0;
+}
+
+select,button{
+    padding:12px;
+    border-radius:10px;
+    border:none;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    margin-top:8px;
+    cursor:pointer;
+}
+
+.btn-primary{
+    background:#00205b;
+    color:white;
+}
+
+.btn-listen{
+    background:#ffed00;
+    color:#00205b;
+}
+
+.card{
+    margin-top:20px;
+    background:#f5f7fa;
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+}
+
+.badges{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.badge{
+    color:white;
+    padding:8px 14px;
+    border-radius:20px;
+}
+
+.level{
+    background:#00205b;
+}
+
+.unit{
+    background:#008D36;
+}
+
+.topic{
+    background:#ffed00;
+    color:#00205b;
+}
+
+.question{
+    font-size:32px;
+    font-weight:bold;
+    margin:25px 0;
+}
+
+.hint-box,
+.answer-box{
+    margin-top:15px;
+    padding:15px;
+    border-radius:10px;
+}
+
+.hint-box{
+    background:#fff8d6;
+}
+
+.answer-box{
+    background:#eaffea;
+}
+
+.hidden{
+    display:none;
+}
+
+.counter{
+    margin-top:20px;
+    text-align:center;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="banner">
+
+<div class="logo-left">
+.png" alt="INTECAP">
+</div>
+
+<div class="logo-center">
+<img src="ingles-para-todos.png" alt="English Journey">
+</div>
+
+<h1>ENGLISH JOURNEY</h1>
+<h2>Speaking Cards</h2>
+
+</div>
+
+<div class="filters">
+
+<select id="levelFilter">
+<option value="">All Levels</option>
+</select>
+
+<select id="unitFilter">
+<option value="">All Units</option>
+</select>
+
+<select id="topicFilter">
+<option value="">All Topics</option>
+</select>
+
+</div>
+
+<div>
+
+<label><strong>Speech Speed:</strong></label>
+
+<select id="speechRate">
+<option value="1">1x Normal</option>
+<option value="0.85">0.85x Slow</option>
+</select>
+
+</div>
+
+<button class="btn-primary" onclick="nextCard()">🎲 New Card</button>
+
+<button class="btn-listen" onclick="playQuestion()">🔊 Listen Question</button>
+
+<button class="btn-primary" onclick="toggleHint()">💡 Show Hint</button>
+
+<button class="btn-primary" onclick="toggleAnswer()">✅ Show Answer</button>
+
+<button class="btn-primary" onclick="resetFilters()">🔄 Reset Filters</button>
+
+<div class="card">
+
+<div class="badges">
+
+<span id="levelBadge" class="badge level">
+Level
+</span>
+
+<span id="unitBadge" class="badge unit">
+Unit
+</span>
+
+<span id="topicBadge" class="badge topic">
+Topic
+</span>
+
+</div>
+
+<div id="question" class="question">
+Click New Card to Start
+</div>
+
+<div id="hintBox" class="hint-box hidden"></div>
+
+<div id="answerBox" class="answer-box hidden"></div>
+
+</div>
+
+<div id="counter" class="counter"></div>
+
+</div>
+
 <script>
 
-let allQuestions = [];
-let availableQuestions = [];
-let remainingQuestions = [];
-let currentCard = null;
+let allQuestions=[];
+let availableQuestions=[];
+let remainingQuestions=[];
+let currentCard=null;
 
 fetch("questions.json")
-.then(response => response.json())
-.then(data => {
+.then(r=>r.json())
+.then(data=>{
 
-    allQuestions = [...data];
+allQuestions=data;
 
-    populateFilters();
+loadFilters();
 
-    applyFilters();
-
-})
-.catch(error => {
-
-    document.getElementById("question").innerHTML =
-    "Error loading questions.json";
-
-    console.error(error);
+applyFilters();
 
 });
 
-function populateFilters(){
+function loadFilters(){
 
-    updateFilterOptions();
+const levels=[...new Set(allQuestions.map(x=>x.Level))];
+const units=[...new Set(allQuestions.map(x=>x.Unit))];
+const topics=[...new Set(allQuestions.map(x=>x.Topic))];
 
-    document.getElementById("levelFilter")
-    .addEventListener("change", applyFilters);
+levels.forEach(v=>{
+levelFilter.innerHTML+=`<option value="${v}">${v}</option>`;
+});
 
-    document.getElementById("unitFilter")
-    .addEventListener("change", applyFilters);
+units.forEach(v=>{
+unitFilter.innerHTML+=`<option value="${v}">Unit ${v}</option>`;
+});
 
-    document.getElementById("topicFilter")
-    .addEventListener("change", applyFilters);
+topics.forEach(v=>{
+topicFilter.innerHTML+=`<option value="${v}">${v}</option>`;
+});
 
-}
-
-function updateFilterOptions(){
-
-    const selectedLevel =
-    document.getElementById("levelFilter")?.value || "";
-
-    const selectedUnit =
-    document.getElementById("unitFilter")?.value || "";
-
-    const levelSelect =
-    document.getElementById("levelFilter");
-
-    const unitSelect =
-    document.getElementById("unitFilter");
-
-    const topicSelect =
-    document.getElementById("topicFilter");
-
-    const levels =
-    [...new Set(allQuestions.map(q => q.Level))]
-    .sort();
-
-    let unitsData = allQuestions;
-
-    if(selectedLevel){
-
-        unitsData =
-        unitsData.filter(
-            q => q.Level === selectedLevel
-        );
-
-    }
-
-    const units =
-    [...new Set(unitsData.map(q => q.Unit))]
-    .sort((a,b)=>a-b);
-
-    let topicsData = unitsData;
-
-    if(selectedUnit){
-
-        topicsData =
-        topicsData.filter(
-            q => String(q.Unit) === selectedUnit
-        );
-
-    }
-
-    const topics =
-    [...new Set(topicsData.map(q => q.Topic))]
-    .sort();
-
-    levelSelect.innerHTML =
-    '<option value="">All Levels</option>';
-
-    unitSelect.innerHTML =
-    '<option value="">All Units</option>';
-
-    topicSelect.innerHTML =
-    '<option value="">All Topics</option>';
-
-    levels.forEach(level=>{
-
-        levelSelect.innerHTML +=
-        `<option value="${level}">
-            ${level}
-        </option>`;
-
-    });
-
-    units.forEach(unit=>{
-
-        unitSelect.innerHTML +=
-        `<option value="${unit}">
-            Unit ${unit}
-        </option>`;
-
-    });
-
-    topics.forEach(topic=>{
-
-        topicSelect.innerHTML +=
-        `<option value="${topic}">
-            ${topic}
-        </option>`;
-
-    });
+levelFilter.addEventListener("change",applyFilters);
+unitFilter.addEventListener("change",applyFilters);
+topicFilter.addEventListener("change",applyFilters);
 
 }
 
 function applyFilters(){
 
-    updateFilterOptions();
+availableQuestions=allQuestions.filter(q=>
 
-    const level =
-    document.getElementById("levelFilter").value;
+(!levelFilter.value || q.Level===levelFilter.value) &&
+(!unitFilter.value || String(q.Unit)===unitFilter.value) &&
+(!topicFilter.value || q.Topic===topicFilter.value)
 
-    const unit =
-    document.getElementById("unitFilter").value;
+);
 
-    const topic =
-    document.getElementById("topicFilter").value;
+remainingQuestions=[...availableQuestions];
 
-    availableQuestions =
-    allQuestions.filter(q => {
-
-        const levelMatch =
-        !level ||
-        q.Level === level;
-
-        const unitMatch =
-        !unit ||
-        String(q.Unit) === unit;
-
-        const topicMatch =
-        !topic ||
-        q.Topic === topic;
-
-        return (
-            levelMatch &&
-            unitMatch &&
-            topicMatch
-        );
-
-    });
-
-    remainingQuestions =
-    [...availableQuestions];
-
-    updateCounter();
+updateCounter();
 
 }
 
 function nextCard(){
 
-    if(remainingQuestions.length === 0){
+if(remainingQuestions.length===0){
 
-        remainingQuestions =
-        [...availableQuestions];
+remainingQuestions=[...availableQuestions];
 
-    }
+}
 
-    if(remainingQuestions.length === 0){
+if(remainingQuestions.length===0){
 
-        document.getElementById("question")
-        .innerHTML =
-        "No questions match the selected filters.";
+question.innerHTML=
+"No questions match selected filters.";
 
-        return;
+return;
 
-    }
+}
 
-    const randomIndex =
-    Math.floor(
-        Math.random() *
-        remainingQuestions.length
-    );
+const index=
+Math.floor(Math.random()*remainingQuestions.length);
 
-    currentCard =
-    remainingQuestions[randomIndex];
+currentCard=
+remainingQuestions[index];
 
-    remainingQuestions.splice(
-        randomIndex,
-        1
-    );
+remainingQuestions.splice(index,1);
 
-    document.getElementById("question")
-    .innerHTML =
-    currentCard.Question;
+question.innerHTML=
+currentCard.Question;
 
-    document.getElementById("levelTag")
-    .innerHTML =
-    currentCard.Level;
+levelBadge.innerHTML=
+currentCard.Level;
 
-    document.getElementById("unitTag")
-    .innerHTML =
-    "Unit " + currentCard.Unit;
+unitBadge.innerHTML=
+"Unit "+currentCard.Unit;
 
-    document.getElementById("topicTag")
-    .innerHTML =
-    currentCard.Topic;
+topicBadge.innerHTML=
+currentCard.Topic;
 
-    document.getElementById("hintBox")
-    .classList.add("hidden");
+hintBox.classList.add("hidden");
+answerBox.classList.add("hidden");
 
-    document.getElementById("answerBox")
-    .classList.add("hidden");
-
-    updateCounter();
+updateCounter();
 
 }
 
 function toggleHint(){
 
-    if(!currentCard) return;
+if(!currentCard)return;
 
-    const box =
-    document.getElementById("hintBox");
+hintBox.innerHTML=
+currentCard.Hint
+? "<strong>Hint:</strong><br><br>"+currentCard.Hint
+: "<strong>No hint available.</strong>";
 
-    box.innerHTML =
-    currentCard.Hint
-    ? "<strong>Hint:</strong><br><br>" +
-      currentCard.Hint
-    : "<strong>No hint available.</strong>";
-
-    box.classList.toggle("hidden");
+hintBox.classList.toggle("hidden");
 
 }
 
 function toggleAnswer(){
 
-    if(!currentCard) return;
+if(!currentCard)return;
 
-    const box =
-    document.getElementById("answerBox");
+answerBox.innerHTML=
+currentCard.Answer
+? "<strong>Sample Answer:</strong><br><br>"+currentCard.Answer
+: "<strong>No sample answer available.</strong>";
 
-    box.innerHTML =
-    currentCard.Answer
-    ? "<strong>Sample Answer:</strong><br><br>" +
-      currentCard.Answer
-    : "<strong>No sample answer available.</strong>";
-
-    box.classList.toggle("hidden");
+answerBox.classList.toggle("hidden");
 
 }
 
 function playQuestion(){
 
-    if(!currentCard) return;
+if(!currentCard)return;
 
-    speechSynthesis.cancel();
+speechSynthesis.cancel();
 
-    const msg =
-    new SpeechSynthesisUtterance(
-        currentCard.Question
-    );
+const msg=
+new SpeechSynthesisUtterance(
+currentCard.Question
+);
 
-    msg.lang = "en-US";
+msg.lang="en-US";
 
-    msg.rate =
-    Number(
-        document.getElementById("speechRate").value
-    );
+msg.rate=
+Number(
+speechRate.value
+);
 
-    speechSynthesis.speak(msg);
+speechSynthesis.speak(msg);
 
 }
 
 function resetFilters(){
 
-    document.getElementById("levelFilter").value = "";
-    document.getElementById("unitFilter").value = "";
-    document.getElementById("topicFilter").value = "";
+levelFilter.value="";
+unitFilter.value="";
+topicFilter.value="";
 
-    applyFilters();
+applyFilters();
 
 }
 
 function updateCounter(){
 
-    document.getElementById("counter")
-    .innerHTML =
-
-    "Filtered Questions: "
-    + availableQuestions.length +
-
-    "<br>Cards Remaining: "
-    + remainingQuestions.length;
+counter.innerHTML=
+"Filtered Questions: "+
+availableQuestions.length+
+"<br><br>Cards Remaining: "+
+remainingQuestions.length;
 
 }
 
 </script>
+
+</body>
+</html>
