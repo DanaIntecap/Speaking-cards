@@ -1,226 +1,1362 @@
 [
   {
-    "Question": "When is Christmas Eve?",
+    "Question": "When is Christmas?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "Christmas is on December 25th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is New Year's Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on January 1st.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Valentine's Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on February 14th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "What month is International Women's Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is in March.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Holy Week usually celebrated?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is usually celebrated in March or April.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Earth Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on April 22nd.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Labor Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on May 1st.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Mother's Day in Guatemala?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on May 10th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions, Countries and nationalities",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "What month is Father's Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is in June.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Teacher's Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on June 25th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Army Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on June 30th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is the Day of the Virgin of the Assumption?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on August 15th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is National Flag Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on August 17th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Independence Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on September 15th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "What month is Children's Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is in October.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Revolution Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on October 20th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "What month is Halloween?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is in October.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is All Saints' Day?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on November 1st.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is the Burning of the Devil?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on December 7th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Christmas?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on December 25th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is New Year's Eve?",
     "Hint": "",
-    "Topic": "Dates; Holidays",
+    "Answer": "It is on December 31st.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is your birthday?",
     "Hint": "It is on__",
-    "Topic": "Dates; Holidays",
+    "Answer": "My birthday is on [Month] [Day].",
+    "Tag": "days months and dates, Verb to be, Wh- questions, personal information",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "What month is your birthday?",
     "Hint": "It is in ___",
-    "Topic": "Personal information",
+    "Answer": "My birthday is in [Month].",
+    "Tag": "days months and dates, Verb to be, Wh- questions, personal information",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "How many days are there in December?",
     "Hint": "",
-    "Topic": "Months",
+    "Answer": "There are 31 days in December.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "How many days are there in February?",
     "Hint": "",
-    "Topic": "Months",
+    "Answer": "There are 28 or 29 days in February.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "How many days are there in June?",
     "Hint": "",
-    "Topic": "Months",
+    "Answer": "There are 30 days in June.",
+    "Tag": "days months and dates, Verb to be, Wh- questions",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When is Independence Day in the USA?",
     "Hint": "",
-    "Topic": "Months",
+    "Answer": "It is on July 4th.",
+    "Tag": "days months and dates, Verb to be, Wh- questions, Countries and nationalities",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "When were you born?",
     "Hint": "I was born on __",
-    "Topic": "Personal information",
+    "Answer": "I was born on [Month] [Day], [Year].",
+    "Tag": "days months and dates, Verb to be, Wh- questions, personal information",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "What year were you born?",
     "Hint": "I was born in __",
-    "Topic": "Personal information",
+    "Answer": "I was born in [Year].",
+    "Tag": "days months and dates, Verb to be, Wh- questions, personal information",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "What is your favorite day of the week?",
     "Hint": "",
-    "Topic": "Days",
+    "Answer": "My favorite day is Friday.",
+    "Tag": "days months and dates, Verb to be, Wh- questions, personal information",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "What is your favorite month of the year?",
     "Hint": "",
-    "Topic": "Personal information",
+    "Answer": "My favorite month is December.",
+    "Tag": "days months and dates, Verb to be, Wh- questions, personal information",
     "Unit": 2,
     "Level": "A1.1"
   },
   {
     "Question": "What is your favorite season?",
     "Hint": "It is the ____ season. (Summer, Fall, Dry, Hot, Rainy)",
-    "Topic": "Personal information",
+    "Answer": "My favorite season is the rainy season.",
+    "Tag": "days months and dates, Verb to be, Wh- questions, personal information",
     "Unit": 2,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How many siblings do you have?",
+    "Hint": "",
+    "Answer": "I have two siblings.",
+    "Tag": "Wh- questions, Have/Has, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How many sisters do you have?",
+    "Hint": "",
+    "Answer": "I have one sister.",
+    "Tag": "Wh- questions, Have/Has, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How many pets do you have?",
+    "Hint": "",
+    "Answer": "I have one pet.",
+    "Tag": "Wh- questions, Have/Has, Hobbies and Likes, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where is your house?",
+    "Hint": "",
+    "Answer": "My house is in Zone 1.",
+    "Tag": "Wh- questions, Verb to be, House, personal information",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where is your teacher?",
+    "Hint": "",
+    "Answer": "My teacher is in the classroom.",
+    "Tag": "Wh- questions, Verb to be, Family and occupations",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where do you work?",
+    "Hint": "",
+    "Answer": "I work at an office.",
+    "Tag": "Wh- questions, routines, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where is your mother?",
+    "Hint": "",
+    "Answer": "My mother is at home.",
+    "Tag": "Wh- questions, Verb to be, Family and occupations",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are you happy?",
+    "Hint": "",
+    "Answer": "Yes, I am. / No, I am not.",
+    "Tag": "Yes/No questions, Verb to be, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are you hungry?",
+    "Hint": "",
+    "Answer": "Yes, I am. / No, I am not.",
+    "Tag": "Yes/No questions, Verb to be, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your mother from Guatemala city?",
+    "Hint": "",
+    "Answer": "Yes, she is. / No, she isn't.",
+    "Tag": "Yes/No questions, Verb to be, Family and occupations, Countries and nationalities",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are you married?",
+    "Hint": "",
+    "Answer": "Yes, I am. / No, I am not.",
+    "Tag": "Yes/No questions, Verb to be, Family and occupations, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your best friend a woman?",
+    "Hint": "",
+    "Answer": "Yes, she is. / No, he isn't.",
+    "Tag": "Yes/No questions, Verb to be, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are your eyes brown?",
+    "Hint": "",
+    "Answer": "Yes, they are. / No, they aren't.",
+    "Tag": "Yes/No questions, Verb to be, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your hair long?",
+    "Hint": "",
+    "Answer": "Yes, it is. / No, it isn't.",
+    "Tag": "Yes/No questions, Verb to be, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your dog friendly?",
+    "Hint": "",
+    "Answer": "Yes, it is. / No, it isn't.",
+    "Tag": "Yes/No questions, Verb to be, Hobbies and Likes",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What color is your hair?",
+    "Hint": "",
+    "Answer": "My hair is black.",
+    "Tag": "Wh- questions, Verb to be, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What color are your eyes?",
+    "Hint": "",
+    "Answer": "My eyes are brown.",
+    "Tag": "Wh- questions, Verb to be, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What color is your pet's fur?",
+    "Hint": "fur= the hair of an animal",
+    "Answer": "My pet's fur is white.",
+    "Tag": "Wh- questions, Verb to be, Hobbies and Likes",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are you at home?",
+    "Hint": "",
+    "Answer": "Yes, I am. / No, I am not.",
+    "Tag": "Yes/No questions, Verb to be, House, personal information",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your father at home?",
+    "Hint": "",
+    "Answer": "Yes, he is. / No, he isn't.",
+    "Tag": "Yes/No questions, Verb to be, Family and occupations, House",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your mother at work?",
+    "Hint": "",
+    "Answer": "Yes, she is. / No, she isn't.",
+    "Tag": "Yes/No questions, Verb to be, Family and occupations",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is INTECAP open right now?",
+    "Hint": "",
+    "Answer": "Yes, it is. / No, it isn't.",
+    "Tag": "Yes/No questions, Verb to be, routines",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is the class interesting?",
+    "Hint": "",
+    "Answer": "Yes, it is.",
+    "Tag": "Yes/No questions, Verb to be, Hobbies and Likes",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How is your mother?",
+    "Hint": "",
+    "Answer": "She is fine, thank you.",
+    "Tag": "Wh- questions, Verb to be, Family and occupations",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How are your parents?",
+    "Hint": "",
+    "Answer": "They are doing well.",
+    "Tag": "Wh- questions, Verb to be, Family and occupations",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How is your teacher?",
+    "Hint": "",
+    "Answer": "She is great.",
+    "Tag": "Wh- questions, Verb to be, Family and occupations",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are you single?",
+    "Hint": "",
+    "Answer": "Yes, I am. / No, I am not.",
+    "Tag": "Yes/No questions, Verb to be, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is Messi from Argentina?",
+    "Hint": "",
+    "Answer": "Yes, he is.",
+    "Tag": "Yes/No questions, Verb to be, Hobbies and Likes, Countries and nationalities",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is Maradona from Colombia?",
+    "Hint": "",
+    "Answer": "No, he isn't. He is from Argentina.",
+    "Tag": "Yes/No questions, Verb to be, Hobbies and Likes, Countries and nationalities",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is Shakira from Venezuela?",
+    "Hint": "",
+    "Answer": "No, she isn't. She is from Colombia.",
+    "Tag": "Yes/No questions, Verb to be, Hobbies and Likes, Countries and nationalities",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are the BTS from Japan?",
+    "Hint": "",
+    "Answer": "No, they aren't. They are from South Korea.",
+    "Tag": "Yes/No questions, Verb to be, Hobbies and Likes, Countries and nationalities",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is Arjona a reggae singer?",
+    "Hint": "",
+    "Answer": "No, he isn't. He is a pop singer.",
+    "Tag": "Yes/No questions, Verb to be, Hobbies and Likes, Countries and nationalities",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is Mana a Mexican band?",
+    "Hint": "",
+    "Answer": "Yes, it is.",
+    "Tag": "Yes/No questions, Verb to be, Hobbies and Likes, Countries and nationalities",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are tacos a Guatemalan typical food?",
+    "Hint": "",
+    "Answer": "No, they aren't. They are Mexican.",
+    "Tag": "Yes/No questions, Verb to be, Countries and nationalities",
+    "Unit": 4,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are tamales a Guatemalan typical food?",
+    "Hint": "",
+    "Answer": "Yes, they are.",
+    "Tag": "Yes/No questions, Verb to be, Countries and nationalities",
+    "Unit": 4,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where do you eat typical food?",
+    "Hint": "",
+    "Answer": "I eat typical food at the market.",
+    "Tag": "Wh- questions, routines, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What touristic places do you know?",
+    "Hint": "",
+    "Answer": "I know Antigua and Tikal.",
+    "Tag": "Wh- questions, Hobbies and Likes, Countries and nationalities",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Which is your favorite Guatemalan department?",
+    "Hint": "",
+    "Answer": "My favorite department is Petén.",
+    "Tag": "Wh- questions, Verb to be, Countries and nationalities, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How many siblings and nephews do you have?",
+    "Hint": "",
+    "Answer": "I have two siblings and three nephews.",
+    "Tag": "Wh- questions, Have/Has, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How many aunts and uncles do you have?",
+    "Hint": "",
+    "Answer": "I have four aunts and two uncles.",
+    "Tag": "Wh- questions, Have/Has, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Who is your favorite aunt?",
+    "Hint": "",
+    "Answer": "My favorite aunt is Maria.",
+    "Tag": "Wh- questions, Verb to be, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you have siblings?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Have/Has, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you have cousins?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Have/Has, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How many cousins do you have?",
+    "Hint": "",
+    "Answer": "I have ten cousins.",
+    "Tag": "Wh- questions, Have/Has, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you have nieces and nephews?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Have/Has, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where are your parents from?",
+    "Hint": "",
+    "Answer": "They are from Guatemala.",
+    "Tag": "Wh- questions, Verb to be, Family and occupations, Countries and nationalities",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where is your computer from?",
+    "Hint": "",
+    "Answer": "It is from the USA.",
+    "Tag": "Wh- questions, Verb to be, House",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your grandmother alive?",
+    "Hint": "",
+    "Answer": "Yes, she is. / No, she isn't.",
+    "Tag": "Yes/No questions, Verb to be, Family and occupations",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your grandfather alive?",
+    "Hint": "",
+    "Answer": "Yes, he is. / No, he isn't.",
+    "Tag": "Yes/No questions, Verb to be, Family and occupations",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Who is your mother?",
+    "Hint": "",
+    "Answer": "My mother is [Name].",
+    "Tag": "Wh- questions, Verb to be, Family and occupations",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Who is your grandmother on your mother's side?",
+    "Hint": "",
+    "Answer": "She is [Name].",
+    "Tag": "Wh- questions, Verb to be, Family and occupations",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Who is your grandmother on your father's side?",
+    "Hint": "",
+    "Answer": "She is [Name].",
+    "Tag": "Wh- questions, Verb to be, Family and occupations",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like playing the piano?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, routines",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like playing an instrument?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, routines",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you prefer the beach or the mountains?",
+    "Hint": "",
+    "Answer": "I prefer the beach.",
+    "Tag": "Yes/No questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What is your favorite animal?",
+    "Hint": "",
+    "Answer": "My favorite animal is the dog.",
+    "Tag": "Wh- questions, Verb to be, Hobbies and Likes, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What food do you enjoy eating?",
+    "Hint": "",
+    "Answer": "I enjoy eating pizza.",
+    "Tag": "Wh- questions, Hobbies and Likes, routines, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What food do you enjoy cooking?",
+    "Hint": "Enjoy: an activity you like doing",
+    "Answer": "I enjoy cooking pasta.",
+    "Tag": "Wh- questions, Hobbies and Likes, routines, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What music do you like listening to?",
+    "Hint": "",
+    "Answer": "I like listening to pop music.",
+    "Tag": "Wh- questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Who is your favorite singer?",
+    "Hint": "",
+    "Answer": "My favorite singer is Dua Lipa.",
+    "Tag": "Wh- questions, Verb to be, Hobbies and Likes, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Who is your favorite sports player?",
+    "Hint": "",
+    "Answer": "My favorite player is Messi.",
+    "Tag": "Wh- questions, Verb to be, Hobbies and Likes, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What is your favorite sport?",
+    "Hint": "",
+    "Answer": "My favorite sport is soccer.",
+    "Tag": "Wh- questions, Verb to be, Hobbies and Likes, personal information",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Which is your favorite school subject?",
+    "Hint": "",
+    "Answer": "My favorite subject is English.",
+    "Tag": "Wh- questions, Verb to be, Hobbies and Likes, personal information",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What is your favorite food?",
+    "Hint": "",
+    "Answer": "My favorite food is chicken.",
+    "Tag": "Wh- questions, Verb to be, Hobbies and Likes, personal information",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is pasta an Italian dish?",
+    "Hint": "Dish= a prepared meal (food)",
+    "Answer": "Yes, it is.",
+    "Tag": "Yes/No questions, Verb to be, Countries and nationalities",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What is your favorite restaurant?",
+    "Hint": "",
+    "Answer": "My favorite restaurant is Pollo Campero.",
+    "Tag": "Wh- questions, Verb to be, Hobbies and Likes, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What country would you like to visit?",
+    "Hint": "",
+    "Answer": "I would like to visit Japan.",
+    "Tag": "Wh- questions, Would you like, Countries and nationalities, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How do you spell Guatemala?",
+    "Hint": "",
+    "Answer": "G-U-A-T-E-M-A-L-A.",
+    "Tag": "Wh- questions, spelling, Countries and nationalities",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How do you spell your first name?",
+    "Hint": "",
+    "Answer": "[Spell out name]",
+    "Tag": "Wh- questions, spelling, personal information",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How do you spell your teacher's name?",
+    "Hint": "",
+    "Answer": "[Spell out name]",
+    "Tag": "Wh- questions, spelling, Family and occupations",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How do you spell your middle name?",
+    "Hint": "",
+    "Answer": "[Spell out name]",
+    "Tag": "Wh- questions, spelling, personal information",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How do you spell your last name?",
+    "Hint": "",
+    "Answer": "[Spell out name]",
+    "Tag": "Wh- questions, spelling, personal information",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Which is your favorite Guatemalan food?",
+    "Hint": "",
+    "Answer": "My favorite Guatemalan food is pepián.",
+    "Tag": "Wh- questions, Verb to be, Countries and nationalities, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What is your address?",
+    "Hint": "",
+    "Answer": "My address is 5th Avenue, Zone 4.",
+    "Tag": "Wh- questions, Verb to be, House, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What is your email?",
+    "Hint": "",
+    "Answer": "My email is student@example.com.",
+    "Tag": "Wh- questions, Verb to be, personal information",
+    "Unit": 2,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Can you spell your favorite animal?",
+    "Hint": "",
+    "Answer": "D-O-G.",
+    "Tag": "Yes/No questions, spelling, Hobbies and Likes",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Can you spell your favorite fruit?",
+    "Hint": "",
+    "Answer": "A-P-P-L-E.",
+    "Tag": "Yes/No questions, spelling, Hobbies and Likes",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Can you spell your favorite sport?",
+    "Hint": "",
+    "Answer": "S-O-C-C-E-R.",
+    "Tag": "Yes/No questions, spelling, Hobbies and Likes",
+    "Unit": 1,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Which movies do you like watching?",
+    "Hint": "",
+    "Answer": "I like watching action movies.",
+    "Tag": "Wh- questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What books do you like reading?",
+    "Hint": "",
+    "Answer": "I like reading historical novels.",
+    "Tag": "Wh- questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like science fiction movies?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like romantic movies?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like comedy movies?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like action movies?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like watching anime?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like watching \"soap operas\"?",
+    "Hint": "Soap operas= telenovelas",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like writing?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like listening to rock music?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like listening to pop music?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What hobbies does your mother have?",
+    "Hint": "",
+    "Answer": "She likes reading and cooking.",
+    "Tag": "Wh- questions, Have/Has, Family and occupations, Hobbies and Likes",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What hobbies does your sibling have?",
+    "Hint": "",
+    "Answer": "He likes playing video games.",
+    "Tag": "Wh- questions, Have/Has, Family and occupations, Hobbies and Likes",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Does your house have a garden?",
+    "Hint": "",
+    "Answer": "Yes, it does. / No, it doesn't.",
+    "Tag": "Yes/No questions, Have/Has, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Does your house have a front yard?",
+    "Hint": "",
+    "Answer": "Yes, it does. / No, it doesn't.",
+    "Tag": "Yes/No questions, Have/Has, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Does your house have a back yard?",
+    "Hint": "",
+    "Answer": "Yes, it does. / No, it doesn't.",
+    "Tag": "Yes/No questions, Have/Has, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How many rooms does your house have?",
+    "Hint": "",
+    "Answer": "My house has three rooms.",
+    "Tag": "Wh- questions, Have/Has, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How many windows does your room have?",
+    "Hint": "",
+    "Answer": "My room has two windows.",
+    "Tag": "Wh- questions, Have/Has, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What color is your house?",
+    "Hint": "",
+    "Answer": "My house is white.",
+    "Tag": "Wh- questions, Verb to be, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What color is your room?",
+    "Hint": "",
+    "Answer": "My room is blue.",
+    "Tag": "Wh- questions, Verb to be, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Tell me 3 pieces of furniture that are in your room",
+    "Hint": "",
+    "Answer": "There is a bed, a desk, and a chair.",
+    "Tag": "Verb to be, House, personal information",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Tell me 3 pieces of furniture that are in your living room",
+    "Hint": "",
+    "Answer": "There is a sofa, a TV, and a table.",
+    "Tag": "Verb to be, House, personal information",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Tell me 3 pieces of furniture that are in your kitchen",
+    "Hint": "",
+    "Answer": "There is a stove, a fridge, and a table.",
+    "Tag": "Verb to be, House, personal information",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Does your kitchen have windows?",
+    "Hint": "",
+    "Answer": "Yes, it does. / No, it doesn't.",
+    "Tag": "Yes/No questions, Have/Has, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Does your kitchen have plants?",
+    "Hint": "",
+    "Answer": "Yes, it does. / No, it doesn't.",
+    "Tag": "Yes/No questions, Have/Has, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What color is your bedroom door?",
+    "Hint": "",
+    "Answer": "It is brown.",
+    "Tag": "Wh- questions, Verb to be, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Would you like to go to the museum? Which one?",
+    "Hint": "",
+    "Answer": "Yes, I would. I want to go to the Miraflores Museum.",
+    "Tag": "Would you like, Wh- questions, Yes/No questions, Hobbies and Likes",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Would you like to go to the zoo? Which animal would you like to watch?",
+    "Hint": "",
+    "Answer": "Yes, I would. I want to watch the monkeys.",
+    "Tag": "Would you like, Wh- questions, Yes/No questions, Hobbies and Likes",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Would you like to go to the library? Which book would you like to read?",
+    "Hint": "",
+    "Answer": "Yes, I would. I want to read a novel.",
+    "Tag": "Would you like, Wh- questions, Yes/No questions, Hobbies and Likes",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Would you like to go to the bookstore? Which book would you like to buy?",
+    "Hint": "",
+    "Answer": "Yes, I would. I want to buy a dictionary.",
+    "Tag": "Would you like, Wh- questions, Yes/No questions, Hobbies and Likes",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Would you like to go to the mall? Which mall would you like to go to?",
+    "Hint": "",
+    "Answer": "Yes, I would. I want to go to Miraflores.",
+    "Tag": "Would you like, Wh- questions, Yes/No questions, Hobbies and Likes",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What days do you go grocery shopping?",
+    "Hint": "",
+    "Answer": "I go grocery shopping on Saturdays.",
+    "Tag": "Wh- questions, routines, days months and dates, personal information",
+    "Unit": 4,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What days do you study English?",
+    "Hint": "",
+    "Answer": "I study English on Tuesdays and Thursdays.",
+    "Tag": "Wh- questions, routines, days months and dates, personal information",
+    "Unit": 2,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What time do you do homework?",
+    "Hint": "",
+    "Answer": "I do homework at 7 PM.",
+    "Tag": "Wh- questions, routines, personal information",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you always eat breakfast?",
+    "Hint": "",
+    "Answer": "Yes, I always do. / No, I sometimes skip it.",
+    "Tag": "Yes/No questions, routines, personal information",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you usually have dinner?",
+    "Hint": "",
+    "Answer": "Yes, I usually do.",
+    "Tag": "Yes/No questions, routines, personal information",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Who do you have dinner with?",
+    "Hint": "",
+    "Answer": "I have dinner with my family.",
+    "Tag": "Wh- questions, routines, Family and occupations, personal information",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where do you usually eat breakfast?",
+    "Hint": "",
+    "Answer": "I usually eat breakfast in the kitchen.",
+    "Tag": "Wh- questions, routines, personal information",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where do you usually eat lunch?",
+    "Hint": "",
+    "Answer": "I usually eat lunch at work.",
+    "Tag": "Wh- questions, routines, personal information",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "How many people live in your house?",
+    "Hint": "",
+    "Answer": "Four people live in my house.",
+    "Tag": "Wh- questions, House, Family and occupations",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Which is your favorite holiday?",
+    "Hint": "",
+    "Answer": "My favorite holiday is Christmas.",
+    "Tag": "Wh- questions, Verb to be, days months and dates, personal information",
+    "Unit": 2,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like celebrating Halloween?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, days months and dates",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you usually celebrate Halloween?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, routines, days months and dates",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you like celebrating Christmas?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, Hobbies and Likes, days months and dates",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you usually celebrate your birthday?",
+    "Hint": "",
+    "Answer": "Yes, I do. / No, I don't.",
+    "Tag": "Yes/No questions, routines, days months and dates, personal information",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where do you celebrate your birthday?",
+    "Hint": "",
+    "Answer": "I celebrate it at a restaurant or at home.",
+    "Tag": "Wh- questions, routines, days months and dates, personal information",
+    "Unit": 5,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your house big?",
+    "Hint": "",
+    "Answer": "Yes, it is. / No, it is small.",
+    "Tag": "Yes/No questions, Verb to be, House",
+    "Unit": 8,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are dogs your favorite pets?",
+    "Hint": "",
+    "Answer": "Yes, they are. / No, they aren't.",
+    "Tag": "Yes/No questions, Verb to be, Hobbies and Likes, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are cats your favorite animals?",
+    "Hint": "",
+    "Answer": "Yes, they are. / No, they aren't.",
+    "Tag": "Yes/No questions, Verb to be, Hobbies and Likes, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is English easy for you?",
+    "Hint": "",
+    "Answer": "Yes, it is. / No, it is difficult.",
+    "Tag": "Yes/No questions, Verb to be, personal information",
+    "Unit": 3,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Where do you live?",
+    "Hint": "",
+    "Answer": "I live in Guatemala City.",
+    "Tag": "Wh- questions, House, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Do you live in the city or in the countryside?",
+    "Hint": "",
+    "Answer": "I live in the city.",
+    "Tag": "Yes/No questions, House, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your mother a teacher?",
+    "Hint": "",
+    "Answer": "Yes, she is. / No, she isn't.",
+    "Tag": "Yes/No questions, Verb to be, Family and occupations",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are you an architect?",
+    "Hint": "",
+    "Answer": "Yes, I am. / No, I am a teacher.",
+    "Tag": "Yes/No questions, Verb to be, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Is your father a doctor?",
+    "Hint": "",
+    "Answer": "Yes, he is. / No, he isn't.",
+    "Tag": "Yes/No questions, Verb to be, Family and occupations",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Are your siblings engineers?",
+    "Hint": "",
+    "Answer": "Yes, they are. / No, they aren't.",
+    "Tag": "Yes/No questions, Verb to be, Family and occupations",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What job would you like to have?",
+    "Hint": "",
+    "Answer": "I would like to be a manager.",
+    "Tag": "Wh- questions, Would you like, Family and occupations, personal information",
+    "Unit": 6,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "Would you like to live in the city?",
+    "Hint": "",
+    "Answer": "Yes, I would. / No, I prefer the countryside.",
+    "Tag": "Yes/No questions, Would you like, House, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What music do you hate listening to?",
+    "Hint": "",
+    "Answer": "I hate listening to heavy metal.",
+    "Tag": "Wh- questions, Hobbies and Likes, personal information",
+    "Unit": 7,
+    "Level": "A1.1"
+  },
+  {
+    "Question": "What is your favorite color?",
+    "Hint": "",
+    "Answer": "My favorite color is blue.",
+    "Tag": "Wh- questions, Verb to be, personal information",
+    "Unit": 1,
     "Level": "A1.1"
   }
 ]
