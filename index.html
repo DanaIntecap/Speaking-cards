@@ -6,21 +6,18 @@
 
 <title>English Journey Speaking Cards</title>
 
-<!-- Fuentes de Google recuperadas -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-
-body{
-    font-family:'Montserrat',sans-serif;
-    background:#0060AA;
-    margin:0;
-    padding:20px;
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #0060AA;
+    margin: 0;
+    padding: 20px;
 }
 
-/* Contenedor principal recuperado */
 .container {
     max-width: 950px;
     margin: auto;
@@ -30,7 +27,6 @@ body{
     box-shadow: 0 6px 20px rgba(0,0,0,.15);
 }
 
-/* Área exclusiva para el Logo de INTECAP (Fondo Blanco) */
 .logo-intecap {
     text-align: left; 
     margin-bottom: 20px;
@@ -41,7 +37,6 @@ body{
     max-height: 45px;
 }
 
-/* Recuadro Azul para English Journey */
 .banner {
     text-align: center;
     background: #0060AA;
@@ -67,126 +62,92 @@ body{
 .logo-center img {
     max-height: 140px;
 }
-    <!-- Instrucciones y Objetivo (Estilo FAD) -->
-<div style="background: #eaffea; padding: 20px; border-radius: 15px; margin-bottom: 20px; color: #00205b;">
-    <h3 style="margin-top: 0;">🎯 Objetivo de Aprendizaje</h3>
-    <p style="margin-bottom: 15px;">Desarrollar fluidez y confianza en tu expresión oral en inglés mediante práctica autónoma y guiada, aplicando las estructuras gramaticales y vocabulario de tu nivel.</p>
-    
-    <h3 style="margin-top: 0;">📌 Instrucciones de uso:</h3>
-    <ul style="margin-bottom: 0;">
-        <li><strong>Filtra tu práctica:</strong> Selecciona tu Nivel, Unidad y el Set de práctica (tema gramatical o comunicativo).</li>
-        <li><strong>Escucha y repite:</strong> Lee la tarjeta y usa <em>"Listen Question"</em> para validar tu pronunciación.</li>
-        <li><strong>Ponte a prueba:</strong> Responde en voz alta antes de hacer clic en <em>"Show Hint"</em> o <em>"Show Answer"</em>. ¡El error es parte del aprendizaje!</li>
-    </ul>
-</div>
 
-.filters{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-    gap:10px;
-    margin:20px 0;
+.filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px 0;
 }
 
-select,button{
-    padding:12px;
-    border-radius:10px;
-    border:none;
-    font-size:16px;
+select, button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
 }
 
-button{
-    width:100%;
-    margin-top:8px;
-    cursor:pointer;
+button {
+    width: 100%;
+    margin-top: 8px;
+    cursor: pointer;
 }
 
-.btn-primary{
-    background:#00205b;
-    color:white;
+.btn-primary {
+    background: #00205b;
+    color: white;
 }
 
-.btn-listen{
-    background:#ffed00;
-    color:#00205b;
+.btn-listen {
+    background: #ffed00;
+    color: #00205b;
 }
 
-.card{
-    margin-top:20px;
-    background:#f5f7fa;
-    padding:25px;
-    border-radius:18px;
-    text-align:center;
+.card {
+    margin-top: 20px;
+    background: #f5f7fa;
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
 }
 
-.badges{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:10px;
+.badges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.badge{
-    color:white;
-    padding:8px 14px;
-    border-radius:20px;
+.badge {
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
 }
 
-.level{
-    background:#00205b;
+.level { background: #00205b; }
+.unit { background: #008D36; }
+.topic { background: #ffed00; color: #00205b; }
+
+.question {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 25px 0;
 }
 
-.unit{
-    background:#008D36;
+.hint-box, .answer-box {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
-.topic{
-    background:#ffed00;
-    color:#00205b;
-}
+.hint-box { background: #fff8d6; }
+.answer-box { background: #eaffea; }
+.hidden { display: none; }
 
-.question{
-    font-size:32px;
-    font-weight:bold;
-    margin:25px 0;
+.counter {
+    margin-top: 20px;
+    text-align: center;
 }
-
-.hint-box,
-.answer-box{
-    margin-top:15px;
-    padding:15px;
-    border-radius:10px;
-}
-
-.hint-box{
-    background:#fff8d6;
-}
-
-.answer-box{
-    background:#eaffea;
-}
-
-.hidden{
-    display:none;
-}
-
-.counter{
-    margin-top:20px;
-    text-align:center;
-}
-
 </style>
-
 </head>
 <body>
 
 <div class="container">
 
-    <!-- 1. Logo de INTECAP (Fuera del recuadro azul) -->
     <div class="logo-intecap">
         <img src="logo-intecap.png" alt="INTECAP">
     </div>
 
-    <!-- 2. Recuadro azul (Banner) -->
     <div class="banner">
         <div class="logo-center">
             <img src="ingles-para-todos.png" alt="English Journey">
@@ -195,109 +156,91 @@ button{
         <h2>Speaking Cards</h2>
     </div>
 
-<div class="filters">
-    <select id="levelFilter">
-        <option value="">All Levels</option>
-    </select>
+    <!-- Instrucciones movidas al cuerpo del documento (HTML) -->
+    <div style="background: #eaffea; padding: 20px; border-radius: 15px; margin-bottom: 20px; color: #00205b;">
+        <h3 style="margin-top: 0;">🎯 Objetivo de Aprendizaje</h3>
+        <p style="margin-bottom: 15px;">Desarrollar fluidez y confianza en tu expresión oral en inglés mediante práctica autónoma y guiada, aplicando las estructuras gramaticales y vocabulario de tu nivel.</p>
+        
+        <h3 style="margin-top: 0;">📌 Instrucciones de uso:</h3>
+        <ul style="margin-bottom: 0;">
+            <li><strong>Filtra tu práctica:</strong> Selecciona tu Nivel, Unidad y el Set de práctica (tema gramatical o comunicativo).</li>
+            <li><strong>Escucha y repite:</strong> Lee la tarjeta y usa <em>"Listen Question"</em> para validar tu pronunciación.</li>
+            <li><strong>Ponte a prueba:</strong> Responde en voz alta antes de hacer clic en <em>"Show Hint"</em> o <em>"Show Answer"</em>. ¡El error es parte del aprendizaje!</li>
+        </ul>
+    </div>
 
-    <select id="unitFilter">
-        <option value="">All Units</option>
-    </select>
+    <div class="filters">
+        <select id="levelFilter"><option value="">All Levels</option></select>
+        <select id="unitFilter"><option value="">All Units</option></select>
+        <select id="setFilter"><option value="">All Sets (Temas)</option></select>
+    </div>
 
-    <select id="setFilter">
-        <option value="">All Sets (Temas)</option>
-    </select>
-</div>
+    <div>
+        <label><strong>Speech Speed:</strong></label>
+        <select id="speechRate">
+            <option value="1">1x Normal</option>
+            <option value="0.85">0.85x Slow</option>
+        </select>
+    </div>
 
-<div>
+    <button class="btn-primary" onclick="nextCard()">🎲 New Card</button>
+    <button class="btn-listen" onclick="playQuestion()">🔊 Listen Question</button>
+    <button class="btn-primary" onclick="toggleHint()">💡 Show Hint</button>
+    <button class="btn-primary" onclick="toggleAnswer()">✅ Show Answer</button>
+    <button class="btn-primary" onclick="resetFilters()">🔄 Reset Filters</button>
 
-<label><strong>Speech Speed:</strong></label>
+    <div class="card">
+        <div class="badges">
+            <span id="levelBadge" class="badge level">Level</span>
+            <span id="unitBadge" class="badge unit">Unit</span>
+            <!-- Ajuste del ID a setBadge -->
+            <span id="setBadge" class="badge topic">Set</span> 
+        </div>
 
-<select id="speechRate">
-<option value="1">1x Normal</option>
-<option value="0.85">0.85x Slow</option>
-</select>
+        <div id="question" class="question">Click New Card to Start</div>
+        <div id="hintBox" class="hint-box hidden"></div>
+        <div id="answerBox" class="answer-box hidden"></div>
+    </div>
 
-</div>
-
-<button class="btn-primary" onclick="nextCard()">🎲 New Card</button>
-
-<button class="btn-listen" onclick="playQuestion()">🔊 Listen Question</button>
-
-<button class="btn-primary" onclick="toggleHint()">💡 Show Hint</button>
-
-<button class="btn-primary" onclick="toggleAnswer()">✅ Show Answer</button>
-
-<button class="btn-primary" onclick="resetFilters()">🔄 Reset Filters</button>
-
-<div class="card">
-
-<div class="badges">
-
-<span id="levelBadge" class="badge level">
-Level
-</span>
-
-<span id="unitBadge" class="badge unit">
-Unit
-</span>
-
-<span id="topicBadge" class="badge topic">
-Topic
-</span>
-
-</div>
-
-<div id="question" class="question">
-Click New Card to Start
-</div>
-
-<div id="hintBox" class="hint-box hidden"></div>
-
-<div id="answerBox" class="answer-box hidden"></div>
-
-</div>
-
-<div id="counter" class="counter"></div>
+    <div id="counter" class="counter"></div>
 
 </div>
 
 <script>
+let allQuestions = [];
+let availableQuestions = [];
+let remainingQuestions = [];
+let currentCard = null;
 
-let allQuestions=[];
-let availableQuestions=[];
-let remainingQuestions=[];
-let currentCard=null;
-
+// Cierre correcto de la llamada Fetch
 fetch("questions.json")
-.then(r=>r.json())
-.then(data=>{
+    .then(r => r.json())
+    .then(data => {
+        allQuestions = data;
+        loadFilters();
+        applyFilters();
+    });
 
-allQuestions=data;
-
+// Funciones ubicadas correctamente fuera del Fetch
 function loadFilters() {
-    // Obtener niveles y unidades únicos
     const levels = [...new Set(allQuestions.map(x => x.Level))];
     const units = [...new Set(allQuestions.map(x => x.Unit))];
     
-    // Extraer todos los "Sets" (Tags) separados por coma
     let allSets = new Set();
     allQuestions.forEach(q => {
-        if(q.Tags) {
-            // Separa por coma y limpia espacios en blanco
-            let tagsArray = q.Tags.split(',').map(tag => tag.trim());
+        // Lee la columna "Tag" de tu CSV/JSON
+        if(q.Tag) { 
+            let tagsArray = q.Tag.split(',').map(tag => tag.trim());
             tagsArray.forEach(tag => allSets.add(tag));
         }
     });
-    // Ordenar los sets alfabéticamente
+    
     const sets = [...allSets].sort();
 
-    // Llenar los menús desplegables
     levels.forEach(v => levelFilter.innerHTML += `<option value="${v}">${v}</option>`);
     units.forEach(v => unitFilter.innerHTML += `<option value="${v}">Unit ${v}</option>`);
     sets.forEach(v => setFilter.innerHTML += `<option value="${v}">${v}</option>`);
 
-    // Escuchar cambios
     levelFilter.addEventListener("change", applyFilters);
     unitFilter.addEventListener("change", applyFilters);
     setFilter.addEventListener("change", applyFilters);
@@ -305,130 +248,80 @@ function loadFilters() {
 
 function applyFilters() {
     availableQuestions = allQuestions.filter(q => {
-        // Convertir la columna de Tags de Excel/JSON a una lista manejable
-        let qTags = q.Tags ? q.Tags.split(',').map(t => t.trim()) : [];
+        let qTags = q.Tag ? q.Tag.split(',').map(t => t.trim()) : [];
         
         return (!levelFilter.value || q.Level === levelFilter.value) &&
                (!unitFilter.value || String(q.Unit) === unitFilter.value) &&
-               (!setFilter.value || qTags.includes(setFilter.value)); // Busca si el set está en la lista
+               (!setFilter.value || qTags.includes(setFilter.value));
     });
 
     remainingQuestions = [...availableQuestions];
     updateCounter();
 }
 
-function nextCard(){
+function nextCard() {
+    if(remainingQuestions.length === 0) {
+        remainingQuestions = [...availableQuestions];
+    }
 
-if(remainingQuestions.length===0){
+    if(remainingQuestions.length === 0) {
+        question.innerHTML = "No questions match selected filters.";
+        return;
+    }
 
-remainingQuestions=[...availableQuestions];
+    const index = Math.floor(Math.random() * remainingQuestions.length);
+    currentCard = remainingQuestions[index];
+    remainingQuestions.splice(index, 1);
 
+    question.innerHTML = currentCard.Question;
+    levelBadge.innerHTML = currentCard.Level;
+    unitBadge.innerHTML = "Unit " + currentCard.Unit;
+    
+    // Muestra el primer tag (Set) de la lista en la tarjeta
+    let cardTags = currentCard.Tag ? currentCard.Tag.split(',').map(t => t.trim()) : ["No Set"];
+    setBadge.innerHTML = cardTags[0]; 
+
+    hintBox.classList.add("hidden");
+    answerBox.classList.add("hidden");
+
+    updateCounter();
 }
 
-if(remainingQuestions.length===0){
-
-question.innerHTML=
-"No questions match selected filters.";
-
-return;
-
+function toggleHint() {
+    if(!currentCard) return;
+    hintBox.innerHTML = currentCard.Hint
+        ? "<strong>Hint:</strong><br><br>" + currentCard.Hint
+        : "<strong>No hint available.</strong>";
+    hintBox.classList.toggle("hidden");
 }
 
-const index=
-Math.floor(Math.random()*remainingQuestions.length);
-
-currentCard=
-remainingQuestions[index];
-
-remainingQuestions.splice(index,1);
-
-question.innerHTML=
-currentCard.Question;
-
-levelBadge.innerHTML=
-currentCard.Level;
-
-unitBadge.innerHTML=
-"Unit "+currentCard.Unit;
-
-topicBadge.innerHTML=
-currentCard.Topic;
-
-hintBox.classList.add("hidden");
-answerBox.classList.add("hidden");
-
-updateCounter();
-
+function toggleAnswer() {
+    if(!currentCard) return;
+    answerBox.innerHTML = currentCard.Answer
+        ? "<strong>Sample Answer:</strong><br><br>" + currentCard.Answer
+        : "<strong>No sample answer available.</strong>";
+    answerBox.classList.toggle("hidden");
 }
 
-function toggleHint(){
-
-if(!currentCard)return;
-
-hintBox.innerHTML=
-currentCard.Hint
-? "<strong>Hint:</strong><br><br>"+currentCard.Hint
-: "<strong>No hint available.</strong>";
-
-hintBox.classList.toggle("hidden");
-
+function playQuestion() {
+    if(!currentCard) return;
+    speechSynthesis.cancel();
+    const msg = new SpeechSynthesisUtterance(currentCard.Question);
+    msg.lang = "en-US";
+    msg.rate = Number(speechRate.value);
+    speechSynthesis.speak(msg);
 }
 
-function toggleAnswer(){
-
-if(!currentCard)return;
-
-answerBox.innerHTML=
-currentCard.Answer
-? "<strong>Sample Answer:</strong><br><br>"+currentCard.Answer
-: "<strong>No sample answer available.</strong>";
-
-answerBox.classList.toggle("hidden");
-
+function resetFilters() {
+    levelFilter.value = "";
+    unitFilter.value = "";
+    setFilter.value = ""; // Ajustado de topicFilter a setFilter
+    applyFilters();
 }
 
-function playQuestion(){
-
-if(!currentCard)return;
-
-speechSynthesis.cancel();
-
-const msg=
-new SpeechSynthesisUtterance(
-currentCard.Question
-);
-
-msg.lang="en-US";
-
-msg.rate=
-Number(
-speechRate.value
-);
-
-speechSynthesis.speak(msg);
-
+function updateCounter() {
+    counter.innerHTML = "Filtered Questions: " + availableQuestions.length + "<br><br>Cards Remaining: " + remainingQuestions.length;
 }
-
-function resetFilters(){
-
-levelFilter.value="";
-unitFilter.value="";
-topicFilter.value="";
-
-applyFilters();
-
-}
-
-function updateCounter(){
-
-counter.innerHTML=
-"Filtered Questions: "+
-availableQuestions.length+
-"<br><br>Cards Remaining: "+
-remainingQuestions.length;
-
-}
-
 </script>
 
 </body>
