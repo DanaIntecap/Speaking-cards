@@ -1,5 +1,3 @@
-<script>
-
 let allQuestions = [];
 let availableQuestions = [];
 let remainingQuestions = [];
@@ -367,5 +365,3 @@ function updateCounter(){
     remainingQuestions.length;
 
 }
-
-</script>
