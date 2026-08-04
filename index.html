@@ -67,6 +67,18 @@ body{
 .logo-center img {
     max-height: 140px;
 }
+    <!-- Instrucciones y Objetivo (Estilo FAD) -->
+<div style="background: #eaffea; padding: 20px; border-radius: 15px; margin-bottom: 20px; color: #00205b;">
+    <h3 style="margin-top: 0;">🎯 Objetivo de Aprendizaje</h3>
+    <p style="margin-bottom: 15px;">Desarrollar fluidez y confianza en tu expresión oral en inglés mediante práctica autónoma y guiada, aplicando las estructuras gramaticales y vocabulario de tu nivel.</p>
+    
+    <h3 style="margin-top: 0;">📌 Instrucciones de uso:</h3>
+    <ul style="margin-bottom: 0;">
+        <li><strong>Filtra tu práctica:</strong> Selecciona tu Nivel, Unidad y el Set de práctica (tema gramatical o comunicativo).</li>
+        <li><strong>Escucha y repite:</strong> Lee la tarjeta y usa <em>"Listen Question"</em> para validar tu pronunciación.</li>
+        <li><strong>Ponte a prueba:</strong> Responde en voz alta antes de hacer clic en <em>"Show Hint"</em> o <em>"Show Answer"</em>. ¡El error es parte del aprendizaje!</li>
+    </ul>
+</div>
 
 .filters{
     display:grid;
@@ -184,19 +196,17 @@ button{
     </div>
 
 <div class="filters">
+    <select id="levelFilter">
+        <option value="">All Levels</option>
+    </select>
 
-<select id="levelFilter">
-<option value="">All Levels</option>
-</select>
+    <select id="unitFilter">
+        <option value="">All Units</option>
+    </select>
 
-<select id="unitFilter">
-<option value="">All Units</option>
-</select>
-
-<select id="topicFilter">
-<option value="">All Topics</option>
-</select>
-
+    <select id="setFilter">
+        <option value="">All Sets (Temas)</option>
+    </select>
 </div>
 
 <div>
@@ -265,50 +275,46 @@ fetch("questions.json")
 
 allQuestions=data;
 
-loadFilters();
+function loadFilters() {
+    // Obtener niveles y unidades únicos
+    const levels = [...new Set(allQuestions.map(x => x.Level))];
+    const units = [...new Set(allQuestions.map(x => x.Unit))];
+    
+    // Extraer todos los "Sets" (Tags) separados por coma
+    let allSets = new Set();
+    allQuestions.forEach(q => {
+        if(q.Tags) {
+            // Separa por coma y limpia espacios en blanco
+            let tagsArray = q.Tags.split(',').map(tag => tag.trim());
+            tagsArray.forEach(tag => allSets.add(tag));
+        }
+    });
+    // Ordenar los sets alfabéticamente
+    const sets = [...allSets].sort();
 
-applyFilters();
+    // Llenar los menús desplegables
+    levels.forEach(v => levelFilter.innerHTML += `<option value="${v}">${v}</option>`);
+    units.forEach(v => unitFilter.innerHTML += `<option value="${v}">Unit ${v}</option>`);
+    sets.forEach(v => setFilter.innerHTML += `<option value="${v}">${v}</option>`);
 
-});
-
-function loadFilters(){
-
-const levels=[...new Set(allQuestions.map(x=>x.Level))];
-const units=[...new Set(allQuestions.map(x=>x.Unit))];
-const topics=[...new Set(allQuestions.map(x=>x.Topic))];
-
-levels.forEach(v=>{
-levelFilter.innerHTML+=`<option value="${v}">${v}</option>`;
-});
-
-units.forEach(v=>{
-unitFilter.innerHTML+=`<option value="${v}">Unit ${v}</option>`;
-});
-
-topics.forEach(v=>{
-topicFilter.innerHTML+=`<option value="${v}">${v}</option>`;
-});
-
-levelFilter.addEventListener("change",applyFilters);
-unitFilter.addEventListener("change",applyFilters);
-topicFilter.addEventListener("change",applyFilters);
-
+    // Escuchar cambios
+    levelFilter.addEventListener("change", applyFilters);
+    unitFilter.addEventListener("change", applyFilters);
+    setFilter.addEventListener("change", applyFilters);
 }
 
-function applyFilters(){
+function applyFilters() {
+    availableQuestions = allQuestions.filter(q => {
+        // Convertir la columna de Tags de Excel/JSON a una lista manejable
+        let qTags = q.Tags ? q.Tags.split(',').map(t => t.trim()) : [];
+        
+        return (!levelFilter.value || q.Level === levelFilter.value) &&
+               (!unitFilter.value || String(q.Unit) === unitFilter.value) &&
+               (!setFilter.value || qTags.includes(setFilter.value)); // Busca si el set está en la lista
+    });
 
-availableQuestions=allQuestions.filter(q=>
-
-(!levelFilter.value || q.Level===levelFilter.value) &&
-(!unitFilter.value || String(q.Unit)===unitFilter.value) &&
-(!topicFilter.value || q.Topic===topicFilter.value)
-
-);
-
-remainingQuestions=[...availableQuestions];
-
-updateCounter();
-
+    remainingQuestions = [...availableQuestions];
+    updateCounter();
 }
 
 function nextCard(){
