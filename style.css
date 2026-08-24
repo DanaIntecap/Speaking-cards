@@ -6,33 +6,32 @@
     margin-bottom: 25px;
     border-radius: 15px;
     overflow: hidden;
-    border: 2px solid #d9e7f5;
+    border: 2px solid #d7e5f4;
     background: #ffffff;
 }
 
 .activity-guide summary {
-    list-style: none;
     cursor: pointer;
-    padding: 18px 20px;
+    padding: 16px 20px;
     background: #0060AA;
     color: white;
     font-weight: 700;
     font-size: 17px;
-    transition: all .3s ease;
-}
-
-.activity-guide summary:hover {
-    background: #004f8b;
+    list-style: none;
 }
 
 .activity-guide summary::-webkit-details-marker {
     display: none;
 }
 
+.activity-guide summary:hover {
+    background: #004f8b;
+}
+
 .activity-guide summary::after {
     content: "▼";
     float: right;
-    transition: transform .3s ease;
+    transition: 0.3s;
 }
 
 .activity-guide[open] summary::after {
@@ -40,20 +39,20 @@
 }
 
 .guide-content {
-    background: #f8fbff;
+    background: #f7fbff;
     padding: 22px;
     color: #00205b;
     line-height: 1.7;
 }
 
-.guide-content p {
-    margin-bottom: 12px;
-}
-
 .guide-content h3 {
     margin-top: 25px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     color: #00205b;
+}
+
+.guide-content p {
+    margin-bottom: 12px;
 }
 
 .guide-content ul {
@@ -61,9 +60,5 @@
 }
 
 .guide-content li {
-    margin-bottom: 10px;
-}
-
-.guide-content strong {
-    color: #00205b;
+    margin-bottom: 8px;
 }
