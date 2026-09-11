@@ -2198,5 +2198,525 @@
     "Level": "A1",
     "Sublevel": "A1.2",
     "Student": "Student B"
+  },
+  {
+    "Question": "How often do you exercise?",
+    "Hint": "",
+    "Answer": "I usually exercise three times a week.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you eat breakfast?",
+    "Hint": "",
+    "Answer": "I always eat breakfast in the morning.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you watch TV?",
+    "Hint": "",
+    "Answer": "I usually watch TV in the evening.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you read books?",
+    "Hint": "",
+    "Answer": "I often read books before bed.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you go to the movies?",
+    "Hint": "",
+    "Answer": "I go to the movies once a month.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you drink coffee?",
+    "Hint": "",
+    "Answer": "I usually drink coffee every morning.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you play video games?",
+    "Hint": "",
+    "Answer": "I sometimes play video games after class.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you visit your family?",
+    "Hint": "",
+    "Answer": "I visit my family twice a month.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you study English?",
+    "Hint": "",
+    "Answer": "I always study English after dinner.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you listen to music?",
+    "Hint": "",
+    "Answer": "I listen to music every day.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you eat fast food?",
+    "Hint": "",
+    "Answer": "I rarely eat fast food during the week.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you cook dinner?",
+    "Hint": "",
+    "Answer": "I usually cook dinner five times a week.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you go shopping?",
+    "Hint": "",
+    "Answer": "I go shopping once a week.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you clean your room?",
+    "Hint": "",
+    "Answer": "I always clean my room on Saturdays.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you go to bed late?",
+    "Hint": "",
+    "Answer": "I sometimes go to bed late on weekends.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you walk to school or work?",
+    "Hint": "",
+    "Answer": "I usually walk to school or work in the morning.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you play sports?",
+    "Hint": "",
+    "Answer": "I play sports twice a week.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you call your friends?",
+    "Hint": "",
+    "Answer": "I often call my friends in the evening.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you eat vegetables?",
+    "Hint": "",
+    "Answer": "I always eat vegetables at lunchtime.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you travel?",
+    "Hint": "",
+    "Answer": "I usually travel once a year.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you take a bus?",
+    "Hint": "",
+    "Answer": "I take a bus every weekday.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you go to the gym?",
+    "Hint": "",
+    "Answer": "I never go to the gym. I exercise at home every day.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you do your homework?",
+    "Hint": "",
+    "Answer": "I always do my homework after class.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you eat at a restaurant?",
+    "Hint": "",
+    "Answer": "I sometimes eat at a restaurant on Sundays.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "How often do you use social media?",
+    "Hint": "",
+    "Answer": "I usually use social media twice a day.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "How often do you go dancing?",
+    "Hint": "",
+    "Answer": "I hardly ever go dancing. I go once or twice a year.",
+    "Tag": "How often, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you always eat breakfast?",
+    "Hint": "",
+    "Answer": "Yes, I always eat breakfast before work.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you always wake up early?",
+    "Hint": "",
+    "Answer": "No, I sometimes wake up late on Sundays.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you always brush your teeth before bed?",
+    "Hint": "",
+    "Answer": "Yes, I always brush my teeth before bed.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you always study English after class?",
+    "Hint": "",
+    "Answer": "No, I usually study English in the evening.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you always walk to work or school?",
+    "Hint": "",
+    "Answer": "No, I sometimes take the bus.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you always drink coffee in the morning?",
+    "Hint": "",
+    "Answer": "No, I never drink coffee. I drink tea every morning.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you always do your homework?",
+    "Hint": "",
+    "Answer": "Yes, I always do my homework after dinner.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you always cook dinner at home?",
+    "Hint": "",
+    "Answer": "No, I eat at a restaurant once a week.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you always go to bed before ten?",
+    "Hint": "",
+    "Answer": "No, I sometimes go to bed at eleven.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you sometimes watch movies at home?",
+    "Hint": "",
+    "Answer": "Yes, I sometimes watch movies on Saturday nights.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you sometimes play video games?",
+    "Hint": "",
+    "Answer": "Yes, I play video games twice a week.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you sometimes eat fast food?",
+    "Hint": "",
+    "Answer": "Yes, I sometimes eat fast food on weekends.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you sometimes visit your friends?",
+    "Hint": "",
+    "Answer": "Yes, I usually visit my friends on Sundays.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you sometimes listen to music while you study?",
+    "Hint": "",
+    "Answer": "No, I never listen to music while I study.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you sometimes take a nap?",
+    "Hint": "",
+    "Answer": "Yes, I sometimes take a nap after lunch.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you sometimes go shopping after work?",
+    "Hint": "",
+    "Answer": "Yes, I go shopping after work once a week.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you sometimes forget your keys?",
+    "Hint": "",
+    "Answer": "Yes, I sometimes forget my keys in the morning.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you sometimes cook for your family?",
+    "Hint": "",
+    "Answer": "Yes, I usually cook for my family on Saturdays.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you frequently exercise?",
+    "Hint": "",
+    "Answer": "Yes, I exercise four times a week.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you frequently use social media?",
+    "Hint": "",
+    "Answer": "Yes, I use social media every day.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you frequently read books?",
+    "Hint": "",
+    "Answer": "Yes, I usually read before bed.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you frequently travel?",
+    "Hint": "",
+    "Answer": "No, I only travel once a year.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you frequently call your family?",
+    "Hint": "",
+    "Answer": "Yes, I call my family every evening.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you frequently go to the movies?",
+    "Hint": "",
+    "Answer": "No, I rarely go to the movies.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
+  },
+  {
+    "Question": "Do you frequently practice English with friends?",
+    "Hint": "",
+    "Answer": "Yes, I practice English with friends three times a week.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student A"
+  },
+  {
+    "Question": "Do you frequently eat vegetables?",
+    "Hint": "",
+    "Answer": "Yes, I always eat vegetables with dinner.",
+    "Tag": "Yes/No questions, Simple present, Adverbs of frequency, Time expressions",
+    "Unit": 6,
+    "Level": "A1",
+    "Sublevel": "A1.2",
+    "Student": "Student B"
   }
 ]
