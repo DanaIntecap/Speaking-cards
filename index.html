@@ -52,7 +52,7 @@
             
             <h3 style="color:#008D36;">📌 Instrucciones</h3>
             <ul>
-                <li><strong>Filtra tu práctica:</strong> Selecciona tu Nivel, Unidad y Set de práctica.</li>
+                <li><strong>Filtra tu práctica:</strong> Selecciona tu Nivel, Subnivel, Unidad y Set de práctica.</li>
                 <li><strong>Genera una tarjeta:</strong> Haz clic en 🎲 New Card.</li>
                 <li><strong>Escucha primero:</strong> Utiliza 🔊 Listen Question para escuchar la pregunta antes de responder.</li>
                 <li><strong>Responde oralmente:</strong> Utiliza oraciones completas antes de consultar ayudas.</li>
@@ -93,6 +93,7 @@
 
     <div class="filters">
         <select id="levelFilter"><option value="">All Levels</option></select>
+        <select id="sublevelFilter" aria-label="Sublevel"><option value="">All Sublevels</option></select>
         <select id="unitFilter"><option value="">All Units</option></select>
         <select id="setFilter"><option value="">All Sets (Temas)</option></select>
     </div>
@@ -114,6 +115,7 @@
     <div class="card">
         <div class="badges">
             <span id="levelBadge" class="badge level">Level</span>
+            <span id="sublevelBadge" class="badge level">Sublevel</span>
             <span id="unitBadge" class="badge unit">Unit</span>
             <span id="setBadge" class="badge topic">Set</span> 
         </div>
@@ -160,20 +162,37 @@ function loadFilters() {
     sets.forEach(v => setFilter.innerHTML += `<option value="${v}">${v}</option>`);
 
     levelFilter.addEventListener("change", applyFilters);
+    sublevelFilter.addEventListener("change", applyFilters);
     unitFilter.addEventListener("change", applyFilters);
     setFilter.addEventListener("change", applyFilters);
 }
 
 function applyFilters() {
+    const selectedSublevel = sublevelFilter.value;
+    const sublevels = [...new Set(allQuestions
+        .filter(q => !levelFilter.value || q.Level === levelFilter.value)
+        .map(q => q.Sublevel).filter(Boolean))].sort();
+    sublevelFilter.replaceChildren(new Option("All Sublevels", ""));
+    sublevels.forEach(v => sublevelFilter.add(new Option(v, v)));
+    sublevelFilter.value = sublevels.includes(selectedSublevel) ? selectedSublevel : "";
     availableQuestions = allQuestions.filter(q => {
         let qTags = q.Tag ? q.Tag.split(',').map(t => t.trim()) : [];
         
         return (!levelFilter.value || q.Level === levelFilter.value) &&
+               (!sublevelFilter.value || q.Sublevel === sublevelFilter.value) &&
                (!unitFilter.value || String(q.Unit) === unitFilter.value) &&
                (!setFilter.value || qTags.includes(setFilter.value));
     });
 
     remainingQuestions = [...availableQuestions];
+    currentCard = null;
+    question.textContent = availableQuestions.length ? "Click New Card to Start" : "No questions match selected filters.";
+    levelBadge.textContent = "Level";
+    sublevelBadge.textContent = "Sublevel";
+    unitBadge.textContent = "Unit";
+    setBadge.textContent = "Set";
+    hintBox.classList.add("hidden");
+    answerBox.classList.add("hidden");
     updateCounter();
 }
 
@@ -193,6 +212,7 @@ function nextCard() {
 
     question.innerHTML = currentCard.Question;
     levelBadge.innerHTML = currentCard.Level;
+    sublevelBadge.textContent = currentCard.Sublevel || "No Sublevel";
     unitBadge.innerHTML = "Unit " + currentCard.Unit;
     
     let cardTags = currentCard.Tag ? currentCard.Tag.split(',').map(t => t.trim()) : ["No Set"];
@@ -231,6 +251,7 @@ function playQuestion() {
 
 function resetFilters() {
     levelFilter.value = "";
+    sublevelFilter.value = "";
     unitFilter.value = "";
     setFilter.value = ""; 
     applyFilters();
