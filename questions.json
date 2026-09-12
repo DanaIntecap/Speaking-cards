@@ -7,7 +7,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuándo es Navidad?",
+    "AnswerTranslation": "Navidad es el 25 de diciembre."
   },
   {
     "Question": "When is New Year's Day?",
@@ -17,7 +19,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo es Año Nuevo?",
+    "AnswerTranslation": "Es el 1 de enero."
   },
   {
     "Question": "When is Valentine's Day?",
@@ -27,7 +31,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuándo es el Día de San Valentín?",
+    "AnswerTranslation": "Es el 14 de febrero."
   },
   {
     "Question": "What month is International Women's Day?",
@@ -37,7 +43,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿En qué mes es el Día Internacional de la Mujer?",
+    "AnswerTranslation": "Es en marzo."
   },
   {
     "Question": "When is Holy Week usually celebrated?",
@@ -47,7 +55,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuándo se celebra normalmente la Semana Santa?",
+    "AnswerTranslation": "Normalmente se celebra en marzo o abril."
   },
   {
     "Question": "When is Earth Day?",
@@ -57,7 +67,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo es el Día de la Tierra?",
+    "AnswerTranslation": "Es el 22 de abril."
   },
   {
     "Question": "When is Labor Day?",
@@ -67,7 +79,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuándo es el Día del Trabajo?",
+    "AnswerTranslation": "Es el 1 de mayo."
   },
   {
     "Question": "When is Mother's Day in Guatemala?",
@@ -77,7 +91,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo es el Día de la Madre en Guatemala?",
+    "AnswerTranslation": "Es el 10 de mayo."
   },
   {
     "Question": "What month is Father's Day?",
@@ -87,7 +103,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿En qué mes es el Día del Padre?",
+    "AnswerTranslation": "Es en junio."
   },
   {
     "Question": "When is Teacher's Day?",
@@ -97,7 +115,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo es el Día del Maestro?",
+    "AnswerTranslation": "Es el 25 de junio."
   },
   {
     "Question": "When is Army Day?",
@@ -107,7 +127,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuándo es el Día del Ejército?",
+    "AnswerTranslation": "Es el 30 de junio."
   },
   {
     "Question": "When is the Day of the Virgin of the Assumption?",
@@ -117,7 +139,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo es el Día de la Virgen de la Asunción?",
+    "AnswerTranslation": "Es el 15 de agosto."
   },
   {
     "Question": "When is National Flag Day?",
@@ -127,7 +151,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuándo es el Día de la Bandera Nacional?",
+    "AnswerTranslation": "Es el 17 de agosto."
   },
   {
     "Question": "When is Independence Day?",
@@ -137,7 +163,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo es el Día de la Independencia?",
+    "AnswerTranslation": "Es el 15 de septiembre."
   },
   {
     "Question": "What month is Children's Day?",
@@ -147,7 +175,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿En qué mes es el Día del Niño?",
+    "AnswerTranslation": "Es en octubre."
   },
   {
     "Question": "When is Revolution Day?",
@@ -157,7 +187,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo es el Día de la Revolución?",
+    "AnswerTranslation": "Es el 20 de octubre."
   },
   {
     "Question": "What month is Halloween?",
@@ -167,7 +199,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿En qué mes es Halloween?",
+    "AnswerTranslation": "Es en octubre."
   },
   {
     "Question": "When is All Saints' Day?",
@@ -177,7 +211,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo es el Día de Todos los Santos?",
+    "AnswerTranslation": "Es el 1 de noviembre."
   },
   {
     "Question": "When is the Burning of the Devil?",
@@ -187,7 +223,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuándo es la Quema del Diablo?",
+    "AnswerTranslation": "Es el 7 de diciembre."
   },
   {
     "Question": "When is Christmas?",
@@ -197,7 +235,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo es Navidad?",
+    "AnswerTranslation": "Es el 25 de diciembre."
   },
   {
     "Question": "When is New Year's Eve?",
@@ -207,7 +247,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuándo es la víspera de Año Nuevo?",
+    "AnswerTranslation": "Es el 31 de diciembre."
   },
   {
     "Question": "When is your birthday?",
@@ -217,7 +259,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo es tu cumpleaños?",
+    "AnswerTranslation": "Mi cumpleaños es el [Día] de [Mes]."
   },
   {
     "Question": "What month is your birthday?",
@@ -227,7 +271,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿En qué mes es tu cumpleaños?",
+    "AnswerTranslation": "Mi cumpleaños es en [Mes]."
   },
   {
     "Question": "How many days are there in December?",
@@ -237,7 +283,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuántos días tiene diciembre?",
+    "AnswerTranslation": "Diciembre tiene 31 días."
   },
   {
     "Question": "How many days are there in February?",
@@ -247,7 +295,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuántos días tiene febrero?",
+    "AnswerTranslation": "Febrero tiene 28 o 29 días."
   },
   {
     "Question": "How many days are there in June?",
@@ -257,7 +307,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuántos días tiene junio?",
+    "AnswerTranslation": "Junio tiene 30 días."
   },
   {
     "Question": "When is Independence Day in the USA?",
@@ -267,7 +319,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuándo es el Día de la Independencia en Estados Unidos?",
+    "AnswerTranslation": "Es el 4 de julio."
   },
   {
     "Question": "When were you born?",
@@ -277,7 +331,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuándo naciste?",
+    "AnswerTranslation": "Nací el [Día] de [Mes] de [Año]."
   },
   {
     "Question": "What year were you born?",
@@ -287,7 +343,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿En qué año naciste?",
+    "AnswerTranslation": "Nací en [Año]."
   },
   {
     "Question": "What is your favorite day of the week?",
@@ -297,7 +355,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuál es tu día favorito de la semana?",
+    "AnswerTranslation": "Mi día favorito es el viernes."
   },
   {
     "Question": "What is your favorite month of the year?",
@@ -307,7 +367,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuál es tu mes favorito del año?",
+    "AnswerTranslation": "Mi mes favorito es diciembre."
   },
   {
     "Question": "What is your favorite season?",
@@ -317,7 +379,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuál es tu estación favorita?",
+    "AnswerTranslation": "Mi estación favorita es la temporada de lluvias."
   },
   {
     "Question": "How many siblings do you have?",
@@ -327,7 +391,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuántos hermanos tienes?",
+    "AnswerTranslation": "Tengo dos hermanos."
   },
   {
     "Question": "How many sisters do you have?",
@@ -337,7 +403,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuántas hermanas tienes?",
+    "AnswerTranslation": "Tengo una hermana."
   },
   {
     "Question": "How many pets do you have?",
@@ -347,7 +415,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuántas mascotas tienes?",
+    "AnswerTranslation": "Tengo una mascota."
   },
   {
     "Question": "Where is your house?",
@@ -357,7 +427,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Dónde está tu casa?",
+    "AnswerTranslation": "Mi casa está en la zona 1."
   },
   {
     "Question": "Where is your teacher?",
@@ -367,7 +439,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Dónde está tu profesor o profesora?",
+    "AnswerTranslation": "Está en el salón de clases."
   },
   {
     "Question": "Where do you work?",
@@ -377,7 +451,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Dónde trabajas?",
+    "AnswerTranslation": "Trabajo en una oficina."
   },
   {
     "Question": "Where is your mother?",
@@ -387,7 +463,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Dónde está tu mamá?",
+    "AnswerTranslation": "Mi mamá está en casa."
   },
   {
     "Question": "Are you happy?",
@@ -397,7 +475,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Estás feliz?",
+    "AnswerTranslation": "Sí, estoy feliz. / No, no estoy feliz."
   },
   {
     "Question": "Are you hungry?",
@@ -407,7 +487,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tienes hambre?",
+    "AnswerTranslation": "Sí, tengo hambre. / No, no tengo hambre."
   },
   {
     "Question": "Is your mother from Guatemala city?",
@@ -417,7 +499,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tu mamá es de la ciudad de Guatemala?",
+    "AnswerTranslation": "Sí, lo es. / No, no lo es."
   },
   {
     "Question": "Are you married?",
@@ -427,7 +511,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Estás casado o casada?",
+    "AnswerTranslation": "Sí, lo estoy. / No, no lo estoy."
   },
   {
     "Question": "Is your best friend a woman?",
@@ -437,7 +523,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tu mejor amistad es una mujer?",
+    "AnswerTranslation": "Sí, es una mujer. / No, es un hombre."
   },
   {
     "Question": "Are your eyes brown?",
@@ -447,7 +535,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tus ojos son cafés?",
+    "AnswerTranslation": "Sí, lo son. / No, no lo son."
   },
   {
     "Question": "Is your hair long?",
@@ -457,7 +547,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tienes el cabello largo?",
+    "AnswerTranslation": "Sí, lo tengo largo. / No, no lo tengo largo."
   },
   {
     "Question": "Is your dog friendly?",
@@ -467,7 +559,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tu perro es amigable?",
+    "AnswerTranslation": "Sí, lo es. / No, no lo es."
   },
   {
     "Question": "What color is your hair?",
@@ -477,7 +571,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿De qué color es tu cabello?",
+    "AnswerTranslation": "Mi cabello es negro."
   },
   {
     "Question": "What color are your eyes?",
@@ -487,7 +583,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿De qué color son tus ojos?",
+    "AnswerTranslation": "Mis ojos son cafés."
   },
   {
     "Question": "What color is your pet's fur?",
@@ -497,7 +595,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿De qué color es el pelaje de tu mascota?",
+    "AnswerTranslation": "El pelaje de mi mascota es blanco."
   },
   {
     "Question": "Are you at home?",
@@ -507,7 +607,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Estás en casa?",
+    "AnswerTranslation": "Sí, estoy en casa. / No, no estoy en casa."
   },
   {
     "Question": "Is your father at home?",
@@ -517,7 +619,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tu papá está en casa?",
+    "AnswerTranslation": "Sí, está en casa. / No, no está en casa."
   },
   {
     "Question": "Is your mother at work?",
@@ -527,7 +631,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tu mamá está en el trabajo?",
+    "AnswerTranslation": "Sí, está en el trabajo. / No, no está en el trabajo."
   },
   {
     "Question": "Is INTECAP open right now?",
@@ -537,7 +643,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿INTECAP está abierto en este momento?",
+    "AnswerTranslation": "Sí, está abierto. / No, no está abierto."
   },
   {
     "Question": "Is the class interesting?",
@@ -547,7 +655,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿La clase es interesante?",
+    "AnswerTranslation": "Sí, lo es."
   },
   {
     "Question": "How is your mother?",
@@ -557,7 +667,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cómo está tu mamá?",
+    "AnswerTranslation": "Está bien, gracias."
   },
   {
     "Question": "How are your parents?",
@@ -567,7 +679,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cómo están tus padres?",
+    "AnswerTranslation": "Están bien."
   },
   {
     "Question": "How is your teacher?",
@@ -577,7 +691,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cómo está tu profesora?",
+    "AnswerTranslation": "Está muy bien."
   },
   {
     "Question": "Are you single?",
@@ -587,7 +703,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Estás soltero o soltera?",
+    "AnswerTranslation": "Sí, lo estoy. / No, no lo estoy."
   },
   {
     "Question": "Is Messi from Argentina?",
@@ -597,7 +715,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Messi es de Argentina?",
+    "AnswerTranslation": "Sí, lo es."
   },
   {
     "Question": "Is Maradona from Colombia?",
@@ -607,7 +727,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Maradona es de Colombia?",
+    "AnswerTranslation": "No, no lo es. Es de Argentina."
   },
   {
     "Question": "Is Shakira from Venezuela?",
@@ -617,7 +739,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Shakira es de Venezuela?",
+    "AnswerTranslation": "No, no lo es. Es de Colombia."
   },
   {
     "Question": "Are the BTS from Japan?",
@@ -627,7 +751,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Los integrantes de BTS son de Japón?",
+    "AnswerTranslation": "No, no lo son. Son de Corea del Sur."
   },
   {
     "Question": "Is Arjona a reggae singer?",
@@ -637,7 +763,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Arjona es un cantante de reggae?",
+    "AnswerTranslation": "No, no lo es. Es un cantante de pop."
   },
   {
     "Question": "Is Mana a Mexican band?",
@@ -647,7 +775,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Maná es una banda mexicana?",
+    "AnswerTranslation": "Sí, lo es."
   },
   {
     "Question": "Are tacos a Guatemalan typical food?",
@@ -657,7 +787,9 @@
     "Unit": 4,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Los tacos son una comida típica guatemalteca?",
+    "AnswerTranslation": "No, no lo son. Son mexicanos."
   },
   {
     "Question": "Are tamales a Guatemalan typical food?",
@@ -667,7 +799,9 @@
     "Unit": 4,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Los tamales son una comida típica guatemalteca?",
+    "AnswerTranslation": "Sí, lo son."
   },
   {
     "Question": "Where do you eat typical food?",
@@ -677,7 +811,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Dónde comes comida típica?",
+    "AnswerTranslation": "Como comida típica en el mercado."
   },
   {
     "Question": "What touristic places do you know?",
@@ -687,7 +823,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué lugares turísticos conoces?",
+    "AnswerTranslation": "Conozco Antigua y Tikal."
   },
   {
     "Question": "Which is your favorite Guatemalan department?",
@@ -697,7 +835,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuál es tu departamento favorito de Guatemala?",
+    "AnswerTranslation": "Mi departamento favorito es Petén."
   },
   {
     "Question": "How many siblings and nephews do you have?",
@@ -707,7 +847,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuántos hermanos y sobrinos tienes?",
+    "AnswerTranslation": "Tengo dos hermanos y tres sobrinos."
   },
   {
     "Question": "How many aunts and uncles do you have?",
@@ -717,7 +859,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuántas tías y tíos tienes?",
+    "AnswerTranslation": "Tengo cuatro tías y dos tíos."
   },
   {
     "Question": "Who is your favorite aunt?",
@@ -727,7 +871,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Quién es tu tía favorita?",
+    "AnswerTranslation": "Mi tía favorita es María."
   },
   {
     "Question": "Do you have siblings?",
@@ -737,7 +883,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tienes hermanos?",
+    "AnswerTranslation": "Sí, tengo. / No, no tengo."
   },
   {
     "Question": "Do you have cousins?",
@@ -747,7 +895,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tienes primos?",
+    "AnswerTranslation": "Sí, tengo. / No, no tengo."
   },
   {
     "Question": "How many cousins do you have?",
@@ -757,7 +907,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuántos primos tienes?",
+    "AnswerTranslation": "Tengo diez primos."
   },
   {
     "Question": "Do you have nieces and nephews?",
@@ -767,7 +919,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tienes sobrinas y sobrinos?",
+    "AnswerTranslation": "Sí, tengo. / No, no tengo."
   },
   {
     "Question": "Where are your parents from?",
@@ -777,7 +931,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿De dónde son tus padres?",
+    "AnswerTranslation": "Son de Guatemala."
   },
   {
     "Question": "Where is your computer from?",
@@ -787,7 +943,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿De dónde es tu computadora?",
+    "AnswerTranslation": "Es de Estados Unidos."
   },
   {
     "Question": "Is your grandmother alive?",
@@ -797,7 +955,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tu abuela vive todavía?",
+    "AnswerTranslation": "Sí, vive. / No, ya no vive."
   },
   {
     "Question": "Is your grandfather alive?",
@@ -807,7 +967,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tu abuelo vive todavía?",
+    "AnswerTranslation": "Sí, vive. / No, ya no vive."
   },
   {
     "Question": "Who is your mother?",
@@ -817,7 +979,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Quién es tu mamá?",
+    "AnswerTranslation": "Mi mamá es [Nombre]."
   },
   {
     "Question": "Who is your grandmother on your mother's side?",
@@ -827,7 +991,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Quién es tu abuela materna?",
+    "AnswerTranslation": "Es [Nombre]."
   },
   {
     "Question": "Who is your grandmother on your father's side?",
@@ -837,7 +1003,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Quién es tu abuela paterna?",
+    "AnswerTranslation": "Es [Nombre]."
   },
   {
     "Question": "Do you like playing the piano?",
@@ -847,7 +1015,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gusta tocar el piano?",
+    "AnswerTranslation": "Sí, me gusta. / No, no me gusta."
   },
   {
     "Question": "Do you like playing an instrument?",
@@ -857,7 +1027,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gusta tocar algún instrumento?",
+    "AnswerTranslation": "Sí, me gusta. / No, no me gusta."
   },
   {
     "Question": "Do you prefer the beach or the mountains?",
@@ -867,7 +1039,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Prefieres la playa o las montañas?",
+    "AnswerTranslation": "Prefiero la playa."
   },
   {
     "Question": "What is your favorite animal?",
@@ -877,7 +1051,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuál es tu animal favorito?",
+    "AnswerTranslation": "Mi animal favorito es el perro."
   },
   {
     "Question": "What food do you enjoy eating?",
@@ -887,7 +1063,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué comida disfrutas comer?",
+    "AnswerTranslation": "Disfruto comer pizza."
   },
   {
     "Question": "What food do you enjoy cooking?",
@@ -897,7 +1075,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Qué comida disfrutas cocinar?",
+    "AnswerTranslation": "Disfruto cocinar pasta."
   },
   {
     "Question": "What music do you like listening to?",
@@ -907,7 +1087,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué música te gusta escuchar?",
+    "AnswerTranslation": "Me gusta escuchar música pop."
   },
   {
     "Question": "Who is your favorite singer?",
@@ -917,7 +1099,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Quién es tu cantante favorito o favorita?",
+    "AnswerTranslation": "Mi cantante favorita es Dua Lipa."
   },
   {
     "Question": "Who is your favorite sports player?",
@@ -927,7 +1111,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Quién es tu deportista favorito o favorita?",
+    "AnswerTranslation": "Mi jugador favorito es Messi."
   },
   {
     "Question": "What is your favorite sport?",
@@ -937,7 +1123,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuál es tu deporte favorito?",
+    "AnswerTranslation": "Mi deporte favorito es el fútbol."
   },
   {
     "Question": "Which is your favorite school subject?",
@@ -947,7 +1135,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuál es tu materia favorita?",
+    "AnswerTranslation": "Mi materia favorita es inglés."
   },
   {
     "Question": "What is your favorite food?",
@@ -957,7 +1147,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuál es tu comida favorita?",
+    "AnswerTranslation": "Mi comida favorita es el pollo."
   },
   {
     "Question": "Is pasta an Italian dish?",
@@ -967,7 +1159,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿La pasta es un platillo italiano?",
+    "AnswerTranslation": "Sí, lo es."
   },
   {
     "Question": "What is your favorite restaurant?",
@@ -977,7 +1171,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuál es tu restaurante favorito?",
+    "AnswerTranslation": "Mi restaurante favorito es Pollo Campero."
   },
   {
     "Question": "What country would you like to visit?",
@@ -987,7 +1183,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué país te gustaría visitar?",
+    "AnswerTranslation": "Me gustaría visitar Japón."
   },
   {
     "Question": "How do you spell Guatemala?",
@@ -997,7 +1195,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cómo se deletrea Guatemala?",
+    "AnswerTranslation": "G-U-A-T-E-M-A-L-A."
   },
   {
     "Question": "How do you spell your first name?",
@@ -1007,7 +1207,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cómo se deletrea tu primer nombre?",
+    "AnswerTranslation": "[Deletrea el nombre]."
   },
   {
     "Question": "How do you spell your teacher's name?",
@@ -1017,7 +1219,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cómo se deletrea el nombre de tu profesor o profesora?",
+    "AnswerTranslation": "[Deletrea el nombre]."
   },
   {
     "Question": "How do you spell your middle name?",
@@ -1027,7 +1231,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cómo se deletrea tu segundo nombre?",
+    "AnswerTranslation": "[Deletrea el nombre]."
   },
   {
     "Question": "How do you spell your last name?",
@@ -1037,7 +1243,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cómo se deletrea tu apellido?",
+    "AnswerTranslation": "[Deletrea el apellido]."
   },
   {
     "Question": "Which is your favorite Guatemalan food?",
@@ -1047,7 +1255,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuál es tu comida guatemalteca favorita?",
+    "AnswerTranslation": "Mi comida guatemalteca favorita es el pepián."
   },
   {
     "Question": "What is your address?",
@@ -1057,7 +1267,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuál es tu dirección?",
+    "AnswerTranslation": "Mi dirección es 5.ª avenida, zona 4."
   },
   {
     "Question": "What is your email?",
@@ -1067,7 +1279,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuál es tu correo electrónico?",
+    "AnswerTranslation": "Mi correo electrónico es student@example.com."
   },
   {
     "Question": "Can you spell your favorite animal?",
@@ -1077,7 +1291,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Puedes deletrear en inglés el nombre de tu animal favorito?",
+    "AnswerTranslation": "D-O-G (perro)."
   },
   {
     "Question": "Can you spell your favorite fruit?",
@@ -1087,7 +1303,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Puedes deletrear en inglés el nombre de tu fruta favorita?",
+    "AnswerTranslation": "A-P-P-L-E (manzana)."
   },
   {
     "Question": "Can you spell your favorite sport?",
@@ -1097,7 +1315,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Puedes deletrear en inglés el nombre de tu deporte favorito?",
+    "AnswerTranslation": "S-O-C-C-E-R (fútbol)."
   },
   {
     "Question": "Which movies do you like watching?",
@@ -1107,7 +1327,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué películas te gusta ver?",
+    "AnswerTranslation": "Me gusta ver películas de acción."
   },
   {
     "Question": "What books do you like reading?",
@@ -1117,7 +1339,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Qué libros te gusta leer?",
+    "AnswerTranslation": "Me gusta leer novelas históricas."
   },
   {
     "Question": "Do you like science fiction movies?",
@@ -1127,7 +1351,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gustan las películas de ciencia ficción?",
+    "AnswerTranslation": "Sí, me gustan. / No, no me gustan."
   },
   {
     "Question": "Do you like romantic movies?",
@@ -1137,7 +1363,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gustan las películas románticas?",
+    "AnswerTranslation": "Sí, me gustan. / No, no me gustan."
   },
   {
     "Question": "Do you like comedy movies?",
@@ -1147,7 +1375,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gustan las películas de comedia?",
+    "AnswerTranslation": "Sí, me gustan. / No, no me gustan."
   },
   {
     "Question": "Do you like action movies?",
@@ -1157,7 +1387,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gustan las películas de acción?",
+    "AnswerTranslation": "Sí, me gustan. / No, no me gustan."
   },
   {
     "Question": "Do you like watching anime?",
@@ -1167,7 +1399,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gusta ver anime?",
+    "AnswerTranslation": "Sí, me gusta. / No, no me gusta."
   },
   {
     "Question": "Do you like watching \"soap operas\"?",
@@ -1177,7 +1411,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gusta ver telenovelas?",
+    "AnswerTranslation": "Sí, me gusta. / No, no me gusta."
   },
   {
     "Question": "Do you like writing?",
@@ -1187,7 +1423,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gusta escribir?",
+    "AnswerTranslation": "Sí, me gusta. / No, no me gusta."
   },
   {
     "Question": "Do you like listening to rock music?",
@@ -1197,7 +1435,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gusta escuchar rock?",
+    "AnswerTranslation": "Sí, me gusta. / No, no me gusta."
   },
   {
     "Question": "Do you like listening to pop music?",
@@ -1207,7 +1447,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gusta escuchar música pop?",
+    "AnswerTranslation": "Sí, me gusta. / No, no me gusta."
   },
   {
     "Question": "What hobbies does your mother have?",
@@ -1217,7 +1459,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Qué pasatiempos tiene tu mamá?",
+    "AnswerTranslation": "Le gusta leer y cocinar."
   },
   {
     "Question": "What hobbies does your sibling have?",
@@ -1227,7 +1471,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué pasatiempos tiene tu hermano o hermana?",
+    "AnswerTranslation": "A él le gusta jugar videojuegos."
   },
   {
     "Question": "Does your house have a garden?",
@@ -1237,7 +1483,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tu casa tiene jardín?",
+    "AnswerTranslation": "Sí, tiene. / No, no tiene."
   },
   {
     "Question": "Does your house have a front yard?",
@@ -1247,7 +1495,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tu casa tiene un patio delantero?",
+    "AnswerTranslation": "Sí, tiene. / No, no tiene."
   },
   {
     "Question": "Does your house have a back yard?",
@@ -1257,7 +1507,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tu casa tiene un patio trasero?",
+    "AnswerTranslation": "Sí, tiene. / No, no tiene."
   },
   {
     "Question": "How many rooms does your house have?",
@@ -1267,7 +1519,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuántas habitaciones tiene tu casa?",
+    "AnswerTranslation": "Mi casa tiene tres habitaciones."
   },
   {
     "Question": "How many windows does your room have?",
@@ -1277,7 +1531,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuántas ventanas tiene tu habitación?",
+    "AnswerTranslation": "Mi habitación tiene dos ventanas."
   },
   {
     "Question": "What color is your house?",
@@ -1287,7 +1543,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿De qué color es tu casa?",
+    "AnswerTranslation": "Mi casa es blanca."
   },
   {
     "Question": "What color is your room?",
@@ -1297,7 +1555,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿De qué color es tu habitación?",
+    "AnswerTranslation": "Mi habitación es azul."
   },
   {
     "Question": "Tell me 3 pieces of furniture that are in your room",
@@ -1307,7 +1567,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "Menciona tres muebles que hay en tu habitación.",
+    "AnswerTranslation": "Hay una cama, un escritorio y una silla."
   },
   {
     "Question": "Tell me 3 pieces of furniture that are in your living room",
@@ -1317,7 +1579,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "Menciona tres muebles que hay en tu sala.",
+    "AnswerTranslation": "Hay un sofá, un televisor y una mesa."
   },
   {
     "Question": "Tell me 3 pieces of furniture that are in your kitchen",
@@ -1327,7 +1591,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "Menciona tres muebles que hay en tu cocina.",
+    "AnswerTranslation": "Hay una estufa, una refrigeradora y una mesa."
   },
   {
     "Question": "Does your kitchen have windows?",
@@ -1337,7 +1603,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tu cocina tiene ventanas?",
+    "AnswerTranslation": "Sí, tiene. / No, no tiene."
   },
   {
     "Question": "Does your kitchen have plants?",
@@ -1347,7 +1615,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tu cocina tiene plantas?",
+    "AnswerTranslation": "Sí, tiene. / No, no tiene."
   },
   {
     "Question": "What color is your bedroom door?",
@@ -1357,7 +1627,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿De qué color es la puerta de tu dormitorio?",
+    "AnswerTranslation": "Es café."
   },
   {
     "Question": "Would you like to go to the museum? Which one?",
@@ -1367,7 +1639,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gustaría ir al museo? ¿A cuál?",
+    "AnswerTranslation": "Sí, me gustaría. Quiero ir al Museo Miraflores."
   },
   {
     "Question": "Would you like to go to the zoo? Which animal would you like to watch?",
@@ -1377,7 +1651,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gustaría ir al zoológico? ¿Qué animal te gustaría observar?",
+    "AnswerTranslation": "Sí, me gustaría. Quiero observar a los monos."
   },
   {
     "Question": "Would you like to go to the library? Which book would you like to read?",
@@ -1387,7 +1663,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gustaría ir a la biblioteca? ¿Qué libro te gustaría leer?",
+    "AnswerTranslation": "Sí, me gustaría. Quiero leer una novela."
   },
   {
     "Question": "Would you like to go to the bookstore? Which book would you like to buy?",
@@ -1397,7 +1675,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gustaría ir a la librería? ¿Qué libro te gustaría comprar?",
+    "AnswerTranslation": "Sí, me gustaría. Quiero comprar un diccionario."
   },
   {
     "Question": "Would you like to go to the mall? Which mall would you like to go to?",
@@ -1407,7 +1687,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gustaría ir al centro comercial? ¿A cuál te gustaría ir?",
+    "AnswerTranslation": "Sí, me gustaría. Quiero ir a Miraflores."
   },
   {
     "Question": "What days do you go grocery shopping?",
@@ -1417,7 +1699,9 @@
     "Unit": 4,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Qué días compras los alimentos?",
+    "AnswerTranslation": "Compro los alimentos los sábados."
   },
   {
     "Question": "What days do you study English?",
@@ -1427,7 +1711,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué días estudias inglés?",
+    "AnswerTranslation": "Estudio inglés los martes y los jueves."
   },
   {
     "Question": "What time do you do homework?",
@@ -1437,7 +1723,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿A qué hora haces la tarea?",
+    "AnswerTranslation": "Hago la tarea a las siete de la noche."
   },
   {
     "Question": "Do you always eat breakfast?",
@@ -1447,7 +1735,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Siempre desayunas?",
+    "AnswerTranslation": "Sí, siempre desayuno. / No, a veces no desayuno."
   },
   {
     "Question": "Do you usually have dinner?",
@@ -1457,7 +1747,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Normalmente cenas?",
+    "AnswerTranslation": "Sí, normalmente ceno."
   },
   {
     "Question": "Who do you have dinner with?",
@@ -1467,7 +1759,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con quién cenas?",
+    "AnswerTranslation": "Ceno con mi familia."
   },
   {
     "Question": "Where do you usually eat breakfast?",
@@ -1477,7 +1771,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Dónde desayunas normalmente?",
+    "AnswerTranslation": "Normalmente desayuno en la cocina."
   },
   {
     "Question": "Where do you usually eat lunch?",
@@ -1487,7 +1783,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Dónde almuerzas normalmente?",
+    "AnswerTranslation": "Normalmente almuerzo en el trabajo."
   },
   {
     "Question": "How many people live in your house?",
@@ -1497,7 +1795,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuántas personas viven en tu casa?",
+    "AnswerTranslation": "Cuatro personas viven en mi casa."
   },
   {
     "Question": "Which is your favorite holiday?",
@@ -1507,7 +1807,9 @@
     "Unit": 2,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuál es tu festividad favorita?",
+    "AnswerTranslation": "Mi festividad favorita es Navidad."
   },
   {
     "Question": "Do you like celebrating Halloween?",
@@ -1517,7 +1819,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gusta celebrar Halloween?",
+    "AnswerTranslation": "Sí, me gusta. / No, no me gusta."
   },
   {
     "Question": "Do you usually celebrate Halloween?",
@@ -1527,7 +1831,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Normalmente celebras Halloween?",
+    "AnswerTranslation": "Sí, lo celebro. / No, no lo celebro."
   },
   {
     "Question": "Do you like celebrating Christmas?",
@@ -1537,7 +1843,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gusta celebrar Navidad?",
+    "AnswerTranslation": "Sí, me gusta. / No, no me gusta."
   },
   {
     "Question": "Do you usually celebrate your birthday?",
@@ -1547,7 +1855,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Normalmente celebras tu cumpleaños?",
+    "AnswerTranslation": "Sí, lo celebro. / No, no lo celebro."
   },
   {
     "Question": "Where do you celebrate your birthday?",
@@ -1557,7 +1867,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Dónde celebras tu cumpleaños?",
+    "AnswerTranslation": "Lo celebro en un restaurante o en casa."
   },
   {
     "Question": "Is your house big?",
@@ -1567,7 +1879,9 @@
     "Unit": 8,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tu casa es grande?",
+    "AnswerTranslation": "Sí, lo es. / No, es pequeña."
   },
   {
     "Question": "Are dogs your favorite pets?",
@@ -1577,7 +1891,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Los perros son tus mascotas favoritas?",
+    "AnswerTranslation": "Sí, lo son. / No, no lo son."
   },
   {
     "Question": "Are cats your favorite animals?",
@@ -1587,7 +1903,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Los gatos son tus animales favoritos?",
+    "AnswerTranslation": "Sí, lo son. / No, no lo son."
   },
   {
     "Question": "Is English easy for you?",
@@ -1597,7 +1915,9 @@
     "Unit": 3,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿El inglés es fácil para ti?",
+    "AnswerTranslation": "Sí, lo es. / No, es difícil."
   },
   {
     "Question": "Where do you live?",
@@ -1607,7 +1927,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Dónde vives?",
+    "AnswerTranslation": "Vivo en la ciudad de Guatemala."
   },
   {
     "Question": "Do you live in the city or in the countryside?",
@@ -1617,7 +1939,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Vives en la ciudad o en el campo?",
+    "AnswerTranslation": "Vivo en la ciudad."
   },
   {
     "Question": "Is your mother a teacher?",
@@ -1627,7 +1951,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tu mamá es maestra?",
+    "AnswerTranslation": "Sí, lo es. / No, no lo es."
   },
   {
     "Question": "Are you an architect?",
@@ -1637,7 +1963,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Eres arquitecto o arquitecta?",
+    "AnswerTranslation": "Sí, lo soy. / No, soy docente."
   },
   {
     "Question": "Is your father a doctor?",
@@ -1647,7 +1975,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tu papá es médico?",
+    "AnswerTranslation": "Sí, lo es. / No, no lo es."
   },
   {
     "Question": "Are your siblings engineers?",
@@ -1657,7 +1987,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tus hermanos son ingenieros?",
+    "AnswerTranslation": "Sí, lo son. / No, no lo son."
   },
   {
     "Question": "What job would you like to have?",
@@ -1667,7 +1999,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué trabajo te gustaría tener?",
+    "AnswerTranslation": "Me gustaría ser gerente."
   },
   {
     "Question": "Would you like to live in the city?",
@@ -1677,7 +2011,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gustaría vivir en la ciudad?",
+    "AnswerTranslation": "Sí, me gustaría. / No, prefiero el campo."
   },
   {
     "Question": "What music do you hate listening to?",
@@ -1687,7 +2023,9 @@
     "Unit": 7,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué música odias escuchar?",
+    "AnswerTranslation": "Odio escuchar heavy metal."
   },
   {
     "Question": "What is your favorite color?",
@@ -1697,7 +2035,9 @@
     "Unit": 1,
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuál es tu color favorito?",
+    "AnswerTranslation": "Mi color favorito es el azul."
   },
   {
     "Question": "Do you play video games?",
@@ -1707,7 +2047,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Juegas videojuegos?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you read books in your free time?",
@@ -1717,7 +2059,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Lees libros en tu tiempo libre?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What kind of music do you listen to?",
@@ -1727,7 +2071,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué tipo de música escuchas?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you play a musical instrument?",
@@ -1737,7 +2083,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tocas algún instrumento musical?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What do you do on weekends?",
@@ -1747,7 +2095,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué haces los fines de semana?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you watch series on Netflix?",
@@ -1757,7 +2107,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Ves series en Netflix?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What kind of movies do you like?",
@@ -1767,7 +2119,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué tipo de películas te gustan?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you like sports?",
@@ -1777,7 +2131,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gustan los deportes?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What sport do you practice?",
@@ -1787,7 +2143,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué deporte practicas?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you go to the gym?",
@@ -1797,7 +2155,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Vas al gimnasio?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What time do you wake up?",
@@ -1807,7 +2167,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿A qué hora te despiertas?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you drink coffee in the morning?",
@@ -1817,7 +2179,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Tomas café por la mañana?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you have breakfast every day?",
@@ -1827,7 +2191,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Desayunas todos los días?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What do you eat for breakfast?",
@@ -1837,7 +2203,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Qué desayunas?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "How do you travel to work or study?",
@@ -1847,7 +2215,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cómo te trasladas al trabajo o a tu lugar de estudio?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you drive a car?",
@@ -1857,7 +2227,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Conduces un carro?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What time do you finish your day?",
@@ -1867,7 +2239,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿A qué hora terminas tu día?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you cook your own meals?",
@@ -1877,7 +2251,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Preparas tus propias comidas?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "When do you study English?",
@@ -1887,7 +2263,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuándo estudias inglés?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you sleep eight hours a day?",
@@ -1897,7 +2275,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Duermes ocho horas al día?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you like spicy food?",
@@ -1907,7 +2287,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gusta la comida picante?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What food do you like the most?",
@@ -1917,7 +2299,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Qué comida te gusta más?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you prefer tea or coffee?",
@@ -1927,7 +2311,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Prefieres té o café?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you eat fast food?",
@@ -1937,7 +2323,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Comes comida rápida?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What do you drink at parties?",
@@ -1947,7 +2335,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué tomas en las fiestas?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you enjoy cooking?",
@@ -1957,7 +2347,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Disfrutas cocinar?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you like vegetables?",
@@ -1967,7 +2359,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Te gustan las verduras?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What dessert do you love?",
@@ -1977,7 +2371,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Qué postre te encanta?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you eat meat?",
@@ -1987,7 +2383,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Comes carne?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you order food online?",
@@ -1997,7 +2395,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Pides comida por internet?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Where do you work?",
@@ -2007,7 +2407,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Dónde trabajas?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you like your job?",
@@ -2017,7 +2419,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Te gusta tu trabajo?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What do you study?",
@@ -2027,7 +2431,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Qué estudias?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you use a computer every day?",
@@ -2037,7 +2443,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Usas una computadora todos los días?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "How many hours do you work?",
@@ -2047,7 +2455,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Cuántas horas trabajas?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you work from home?",
@@ -2057,7 +2467,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Trabajas desde casa?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you want to learn another language?",
@@ -2067,7 +2479,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Quieres aprender otro idioma?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Why do you study English?",
@@ -2077,7 +2491,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Por qué estudias inglés?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you read the news?",
@@ -2087,7 +2503,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Lees las noticias?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you help your classmates?",
@@ -2097,7 +2515,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Ayudas a tus compañeros de clase?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you have pets?",
@@ -2107,7 +2527,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Tienes mascotas?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "What animal do you like?",
@@ -2117,7 +2539,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Qué animal te gusta?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you live with your family?",
@@ -2127,7 +2551,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Vives con tu familia?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "How many siblings do you have?",
@@ -2137,7 +2563,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Cuántos hermanos tienes?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you travel a lot?",
@@ -2147,7 +2575,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Viajas mucho?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Where do you want to travel?",
@@ -2157,7 +2587,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿A dónde quieres viajar?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you speak another language?",
@@ -2167,7 +2599,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Hablas otro idioma?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you collect anything?",
@@ -2177,7 +2611,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Coleccionas algo?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you go out with friends on Fridays?",
@@ -2187,7 +2623,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Sales con amigos los viernes?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "Do you play board games?",
@@ -2197,7 +2635,9 @@
     "Unit": 5,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Juegas juegos de mesa?",
+    "AnswerTranslation": ""
   },
   {
     "Question": "How often do you exercise?",
@@ -2207,7 +2647,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia haces ejercicio?",
+    "AnswerTranslation": "Normalmente hago ejercicio tres veces por semana."
   },
   {
     "Question": "How often do you eat breakfast?",
@@ -2217,7 +2659,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia desayunas?",
+    "AnswerTranslation": "Siempre desayuno por la mañana."
   },
   {
     "Question": "How often do you watch TV?",
@@ -2227,7 +2671,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia ves televisión?",
+    "AnswerTranslation": "Normalmente veo televisión por la noche."
   },
   {
     "Question": "How often do you read books?",
@@ -2237,7 +2683,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia lees libros?",
+    "AnswerTranslation": "A menudo leo libros antes de acostarme."
   },
   {
     "Question": "How often do you go to the movies?",
@@ -2247,7 +2695,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia vas al cine?",
+    "AnswerTranslation": "Voy al cine una vez al mes."
   },
   {
     "Question": "How often do you drink coffee?",
@@ -2257,7 +2707,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia tomas café?",
+    "AnswerTranslation": "Normalmente tomo café todas las mañanas."
   },
   {
     "Question": "How often do you play video games?",
@@ -2267,7 +2719,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia juegas videojuegos?",
+    "AnswerTranslation": "A veces juego videojuegos después de clase."
   },
   {
     "Question": "How often do you visit your family?",
@@ -2277,7 +2731,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia visitas a tu familia?",
+    "AnswerTranslation": "Visito a mi familia dos veces al mes."
   },
   {
     "Question": "How often do you study English?",
@@ -2287,7 +2743,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia estudias inglés?",
+    "AnswerTranslation": "Siempre estudio inglés después de cenar."
   },
   {
     "Question": "How often do you listen to music?",
@@ -2297,7 +2755,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia escuchas música?",
+    "AnswerTranslation": "Escucho música todos los días."
   },
   {
     "Question": "How often do you eat fast food?",
@@ -2307,7 +2767,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia comes comida rápida?",
+    "AnswerTranslation": "Rara vez como comida rápida durante la semana."
   },
   {
     "Question": "How often do you cook dinner?",
@@ -2317,7 +2779,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia preparas la cena?",
+    "AnswerTranslation": "Normalmente preparo la cena cinco veces por semana."
   },
   {
     "Question": "How often do you go shopping?",
@@ -2327,7 +2791,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia vas de compras?",
+    "AnswerTranslation": "Voy de compras una vez por semana."
   },
   {
     "Question": "How often do you clean your room?",
@@ -2337,7 +2803,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia limpias tu habitación?",
+    "AnswerTranslation": "Siempre limpio mi habitación los sábados."
   },
   {
     "Question": "How often do you go to bed late?",
@@ -2347,7 +2815,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia te acuestas tarde?",
+    "AnswerTranslation": "A veces me acuesto tarde los fines de semana."
   },
   {
     "Question": "How often do you walk to school or work?",
@@ -2357,7 +2827,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia vas caminando a la escuela o al trabajo?",
+    "AnswerTranslation": "Normalmente voy caminando a la escuela o al trabajo por la mañana."
   },
   {
     "Question": "How often do you play sports?",
@@ -2367,7 +2839,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia practicas deportes?",
+    "AnswerTranslation": "Practico deportes dos veces por semana."
   },
   {
     "Question": "How often do you call your friends?",
@@ -2377,7 +2851,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia llamas a tus amigos?",
+    "AnswerTranslation": "A menudo llamo a mis amigos por la noche."
   },
   {
     "Question": "How often do you eat vegetables?",
@@ -2387,7 +2863,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia comes verduras?",
+    "AnswerTranslation": "Siempre como verduras a la hora del almuerzo."
   },
   {
     "Question": "How often do you travel?",
@@ -2397,7 +2875,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia viajas?",
+    "AnswerTranslation": "Normalmente viajo una vez al año."
   },
   {
     "Question": "How often do you take a bus?",
@@ -2407,7 +2887,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia tomas un bus?",
+    "AnswerTranslation": "Tomo un bus de lunes a viernes."
   },
   {
     "Question": "How often do you go to the gym?",
@@ -2417,7 +2899,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia vas al gimnasio?",
+    "AnswerTranslation": "Nunca voy al gimnasio. Hago ejercicio en casa todos los días."
   },
   {
     "Question": "How often do you do your homework?",
@@ -2427,7 +2911,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia haces la tarea?",
+    "AnswerTranslation": "Siempre hago la tarea después de clase."
   },
   {
     "Question": "How often do you eat at a restaurant?",
@@ -2437,7 +2923,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia comes en un restaurante?",
+    "AnswerTranslation": "A veces como en un restaurante los domingos."
   },
   {
     "Question": "How often do you use social media?",
@@ -2447,7 +2935,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Con qué frecuencia usas las redes sociales?",
+    "AnswerTranslation": "Normalmente uso las redes sociales dos veces al día."
   },
   {
     "Question": "How often do you go dancing?",
@@ -2457,7 +2947,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Con qué frecuencia sales a bailar?",
+    "AnswerTranslation": "Casi nunca salgo a bailar. Voy una o dos veces al año."
   },
   {
     "Question": "Do you always eat breakfast?",
@@ -2467,7 +2959,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Siempre desayunas?",
+    "AnswerTranslation": "Sí, siempre desayuno antes de trabajar."
   },
   {
     "Question": "Do you always wake up early?",
@@ -2477,7 +2971,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Siempre te despiertas temprano?",
+    "AnswerTranslation": "No, a veces me despierto tarde los domingos."
   },
   {
     "Question": "Do you always brush your teeth before bed?",
@@ -2487,7 +2983,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Siempre te cepillas los dientes antes de acostarte?",
+    "AnswerTranslation": "Sí, siempre me cepillo los dientes antes de acostarme."
   },
   {
     "Question": "Do you always study English after class?",
@@ -2497,7 +2995,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Siempre estudias inglés después de clase?",
+    "AnswerTranslation": "No, normalmente estudio inglés por la noche."
   },
   {
     "Question": "Do you always walk to work or school?",
@@ -2507,7 +3007,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Siempre vas caminando al trabajo o a la escuela?",
+    "AnswerTranslation": "No, a veces tomo el bus."
   },
   {
     "Question": "Do you always drink coffee in the morning?",
@@ -2517,7 +3019,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Siempre tomas café por la mañana?",
+    "AnswerTranslation": "No, nunca tomo café. Tomo té todas las mañanas."
   },
   {
     "Question": "Do you always do your homework?",
@@ -2527,7 +3031,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Siempre haces la tarea?",
+    "AnswerTranslation": "Sí, siempre hago la tarea después de cenar."
   },
   {
     "Question": "Do you always cook dinner at home?",
@@ -2537,7 +3043,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Siempre preparas la cena en casa?",
+    "AnswerTranslation": "No, como en un restaurante una vez por semana."
   },
   {
     "Question": "Do you always go to bed before ten?",
@@ -2547,7 +3055,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Siempre te acuestas antes de las diez?",
+    "AnswerTranslation": "No, a veces me acuesto a las once."
   },
   {
     "Question": "Do you sometimes watch movies at home?",
@@ -2557,7 +3067,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿A veces ves películas en casa?",
+    "AnswerTranslation": "Sí, a veces veo películas los sábados por la noche."
   },
   {
     "Question": "Do you sometimes play video games?",
@@ -2567,7 +3079,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿A veces juegas videojuegos?",
+    "AnswerTranslation": "Sí, juego videojuegos dos veces por semana."
   },
   {
     "Question": "Do you sometimes eat fast food?",
@@ -2577,7 +3091,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿A veces comes comida rápida?",
+    "AnswerTranslation": "Sí, a veces como comida rápida los fines de semana."
   },
   {
     "Question": "Do you sometimes visit your friends?",
@@ -2587,7 +3103,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿A veces visitas a tus amigos?",
+    "AnswerTranslation": "Sí, normalmente visito a mis amigos los domingos."
   },
   {
     "Question": "Do you sometimes listen to music while you study?",
@@ -2597,7 +3115,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿A veces escuchas música mientras estudias?",
+    "AnswerTranslation": "No, nunca escucho música mientras estudio."
   },
   {
     "Question": "Do you sometimes take a nap?",
@@ -2607,7 +3127,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿A veces tomas una siesta?",
+    "AnswerTranslation": "Sí, a veces tomo una siesta después de almorzar."
   },
   {
     "Question": "Do you sometimes go shopping after work?",
@@ -2617,7 +3139,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿A veces vas de compras después del trabajo?",
+    "AnswerTranslation": "Sí, voy de compras después del trabajo una vez por semana."
   },
   {
     "Question": "Do you sometimes forget your keys?",
@@ -2627,7 +3151,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿A veces olvidas tus llaves?",
+    "AnswerTranslation": "Sí, a veces olvido mis llaves por la mañana."
   },
   {
     "Question": "Do you sometimes cook for your family?",
@@ -2637,7 +3163,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿A veces cocinas para tu familia?",
+    "AnswerTranslation": "Sí, normalmente cocino para mi familia los sábados."
   },
   {
     "Question": "Do you frequently exercise?",
@@ -2647,7 +3175,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Haces ejercicio frecuentemente?",
+    "AnswerTranslation": "Sí, hago ejercicio cuatro veces por semana."
   },
   {
     "Question": "Do you frequently use social media?",
@@ -2657,7 +3187,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Usas las redes sociales frecuentemente?",
+    "AnswerTranslation": "Sí, uso las redes sociales todos los días."
   },
   {
     "Question": "Do you frequently read books?",
@@ -2667,7 +3199,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Lees libros frecuentemente?",
+    "AnswerTranslation": "Sí, normalmente leo antes de acostarme."
   },
   {
     "Question": "Do you frequently travel?",
@@ -2677,7 +3211,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Viajas frecuentemente?",
+    "AnswerTranslation": "No, solo viajo una vez al año."
   },
   {
     "Question": "Do you frequently call your family?",
@@ -2687,7 +3223,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Llamas a tu familia frecuentemente?",
+    "AnswerTranslation": "Sí, llamo a mi familia todas las noches."
   },
   {
     "Question": "Do you frequently go to the movies?",
@@ -2697,7 +3235,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Vas al cine frecuentemente?",
+    "AnswerTranslation": "No, rara vez voy al cine."
   },
   {
     "Question": "Do you frequently practice English with friends?",
@@ -2707,7 +3247,9 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student A"
+    "Student": "Student A",
+    "QuestionTranslation": "¿Practicas inglés con amigos frecuentemente?",
+    "AnswerTranslation": "Sí, practico inglés con amigos tres veces por semana."
   },
   {
     "Question": "Do you frequently eat vegetables?",
@@ -2717,6 +3259,8 @@
     "Unit": 6,
     "Level": "A1",
     "Sublevel": "A1.2",
-    "Student": "Student B"
+    "Student": "Student B",
+    "QuestionTranslation": "¿Comes verduras frecuentemente?",
+    "AnswerTranslation": "Sí, siempre como verduras con la cena."
   }
 ]

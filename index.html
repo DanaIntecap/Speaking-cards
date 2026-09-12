@@ -127,8 +127,12 @@
         </div>
 
         <div id="question" class="question">Click New Card to Start</div>
+        <button id="questionTranslationBtn" class="btn-primary" onclick="toggleTranslation('question')" aria-controls="questionTranslation" aria-expanded="false" disabled>Ver traducción de la pregunta</button>
+        <div id="questionTranslation" class="hint-box hidden" lang="es"></div>
         <div id="hintBox" class="hint-box hidden"></div>
         <div id="answerBox" class="answer-box hidden"></div>
+        <button id="answerTranslationBtn" class="btn-primary" onclick="toggleTranslation('answer')" aria-controls="answerTranslation" aria-expanded="false" disabled>Ver traducción de la respuesta</button>
+        <div id="answerTranslation" class="answer-box hidden" lang="es"></div>
     </div>
 
     <div id="counter" class="counter"></div>
@@ -194,6 +198,7 @@ function applyFilters() {
 
     remainingQuestions = [...availableQuestions];
     currentCard = null;
+    resetTranslations();
     question.textContent = availableQuestions.length ? "Click New Card to Start" : "No questions match selected filters.";
     levelBadge.textContent = "Level";
     sublevelBadge.textContent = "Sublevel";
@@ -217,6 +222,7 @@ function nextCard() {
 
     const index = Math.floor(Math.random() * remainingQuestions.length);
     currentCard = remainingQuestions[index];
+    resetTranslations();
     remainingQuestions.splice(index, 1);
 
     question.innerHTML = currentCard.Question;
@@ -232,6 +238,30 @@ function nextCard() {
     answerBox.classList.add("hidden");
 
     updateCounter();
+}
+
+function resetTranslations() {
+    for (const kind of ['question', 'answer']) {
+        const box = document.getElementById(kind + 'Translation');
+        const button = document.getElementById(kind + 'TranslationBtn');
+        const field = kind === 'question' ? 'QuestionTranslation' : 'AnswerTranslation';
+        box.textContent = '';
+        box.classList.add('hidden');
+        button.disabled = !currentCard || !currentCard[field];
+        button.setAttribute('aria-expanded', 'false');
+        button.textContent = kind === 'question' ? 'Ver traducción de la pregunta' : 'Ver traducción de la respuesta';
+    }
+}
+
+function toggleTranslation(kind) {
+    const field = kind === 'question' ? 'QuestionTranslation' : 'AnswerTranslation';
+    if (!currentCard || !currentCard[field]) return;
+    const box = document.getElementById(kind + 'Translation');
+    const button = document.getElementById(kind + 'TranslationBtn');
+    box.textContent = currentCard[field];
+    const hidden = box.classList.toggle('hidden');
+    button.setAttribute('aria-expanded', String(!hidden));
+    button.textContent = (hidden ? 'Ver' : 'Ocultar') + ' traducción de la ' + (kind === 'question' ? 'pregunta' : 'respuesta');
 }
 
 function toggleHint() {
