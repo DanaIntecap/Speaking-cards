@@ -114,7 +114,8 @@
 
     <button class="btn-primary" onclick="nextCard()">🎲 New Card</button>
     <button class="btn-listen" onclick="playQuestion()">🔊 Listen Question</button>
-    <button class="btn-listen" type="button" onclick="speechRate.value = '0.75'; playQuestion()" aria-label="Listen to the question at 0.75x speed">🔊 Listen 0.75x</button>
+    <button class="btn-listen" type="button" onclick="playQuestion(0.75)" aria-label="Listen to the question at 0.75x speed">🔊 Listen 0.75x</button>
+    <p id="audioStatus" role="status" aria-live="polite"></p>
     <button class="btn-primary" onclick="toggleHint()">💡 Show Hint</button>
     <button class="btn-primary" onclick="toggleAnswer()">✅ Show Answer</button>
     <button class="btn-primary" onclick="resetFilters()">🔄 Reset Filters</button>
@@ -282,13 +283,74 @@ function toggleAnswer() {
     answerBox.classList.toggle("hidden");
 }
 
-function playQuestion() {
-    if(!currentCard) return;
-    speechSynthesis.cancel();
-    const msg = new SpeechSynthesisUtterance(currentCard.Question);
-    msg.lang = "en-US";
-    msg.rate = Number(speechRate.value);
-    speechSynthesis.speak(msg);
+// Keep the utterance alive until playback finishes, including on mobile browsers.
+let activeSpeech = null;
+let audioStartTimer;
+let englishVoices = [];
+function loadVoices() {
+    if ('speechSynthesis' in window) {
+        englishVoices = window.speechSynthesis.getVoices().filter(v => /^en[-_]/i.test(v.lang));
+    }
+}
+loadVoices();
+if ('speechSynthesis' in window) {
+    window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
+}
+
+function playQuestion(rate) {
+    const status = document.getElementById('audioStatus');
+    const speed = document.getElementById('speechRate');
+    if (rate !== undefined) speed.value = String(rate);
+    if (!currentCard) nextCard();
+    if (!currentCard) {
+        status.textContent = 'No hay una pregunta disponible. Revisa los filtros o espera a que carguen las tarjetas.';
+        return;
+    }
+    if (!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)) {
+        status.textContent = 'Este navegador no permite reproducir la voz. Abre la actividad en Chrome, Edge o Safari.';
+        return;
+    }
+    const synth = window.speechSynthesis;
+    clearTimeout(audioStartTimer);
+    activeSpeech = null;
+    synth.cancel();
+    loadVoices();
+    const msg = new window.SpeechSynthesisUtterance(currentCard.Question);
+    activeSpeech = msg;
+    // Prefer a local English voice so playback does not depend on a voice service.
+    const voice = englishVoices.find(v => v.localService && /^en-US$/i.test(v.lang))
+        || englishVoices.find(v => v.localService) || englishVoices[0];
+    if (voice) msg.voice = voice;
+    msg.lang = voice ? voice.lang : 'en-US';
+    msg.rate = Number(speed.value) || 1;
+    msg.volume = 1;
+    msg.onstart = () => {
+        if (activeSpeech !== msg) return;
+        clearTimeout(audioStartTimer);
+        status.textContent = 'Reproduciendo a ' + msg.rate + 'x…';
+    };
+    msg.onend = () => {
+        if (activeSpeech !== msg) return;
+        clearTimeout(audioStartTimer);
+        activeSpeech = null;
+        status.textContent = 'Audio terminado. Puedes volver a escucharlo.';
+    };
+    msg.onerror = event => {
+        if (activeSpeech !== msg) return;
+        clearTimeout(audioStartTimer);
+        activeSpeech = null;
+        status.textContent = 'No se pudo reproducir el audio (' + event.error + '). Intenta de nuevo o abre la actividad directamente en otra pestaña.';
+    };
+    status.textContent = 'Preparando audio…';
+    audioStartTimer = setTimeout(() => {
+        if (activeSpeech === msg) status.textContent = 'La voz no ha iniciado. Pulsa Listen de nuevo; si persiste, abre la actividad directamente en Chrome o Edge.';
+    }, 5000);
+    try {
+        synth.speak(msg);
+        if (synth.paused) synth.resume();
+    } catch (error) {
+        msg.onerror({ error: error.message || 'error de voz' });
+    }
 }
 
 function resetFilters() {
