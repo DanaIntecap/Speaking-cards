@@ -110,6 +110,13 @@
             <option value="0.85">0.85x Slow</option>
             <option value="0.75">0.75x Slower</option>
         </select>
+        <label for="speechAccent"><strong>Accent:</strong></label>
+        <select id="speechAccent" aria-describedby="accentHelp">
+            <option value="american">American</option>
+            <option value="british">British</option>
+            <option value="mixed">Mixed</option>
+        </select>
+        <p id="accentHelp">Mixed randomly chooses an available American or British accent each time. Voices depend on your browser and device.</p>
     </div>
 
     <button class="btn-primary" onclick="nextCard()">🎲 New Card</button>
@@ -296,6 +303,26 @@ if ('speechSynthesis' in window) {
     window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
 }
 
+function selectAccentVoice(accent) {
+    const groups = [
+        { label: 'American', lang: 'en-US' },
+        { label: 'British', lang: 'en-GB' }
+    ].map(group => ({ ...group, voices: englishVoices.filter(v =>
+        v.lang.replace('_', '-').toLowerCase() === group.lang.toLowerCase()) }));
+    const available = groups.filter(group => group.voices.length);
+    const target = accent === 'mixed'
+        ? (available.length ? available[Math.floor(Math.random() * available.length)] : groups[0])
+        : groups[accent === 'british' ? 1 : 0];
+    const voice = target.voices.find(v => v.localService) || target.voices[0];
+    let notice = '';
+    if (!voice) {
+        notice = ' No hay una voz ' + target.label + ' disponible; el navegador intentará usar ese idioma.';
+    } else if (accent === 'mixed' && available.length < 2) {
+        notice = ' Mixed: solo está disponible el acento ' + target.label + '.';
+    }
+    return { voice, lang: target.lang, label: target.label, notice };
+}
+
 function playQuestion() {
     const status = document.getElementById('audioStatus');
     const speed = document.getElementById('speechRate');
@@ -315,23 +342,21 @@ function playQuestion() {
     loadVoices();
     const msg = new window.SpeechSynthesisUtterance(currentCard.Question);
     activeSpeech = msg;
-    // Prefer a local English voice so playback does not depend on a voice service.
-    const voice = englishVoices.find(v => v.localService && /^en-US$/i.test(v.lang))
-        || englishVoices.find(v => v.localService) || englishVoices[0];
-    if (voice) msg.voice = voice;
-    msg.lang = voice ? voice.lang : 'en-US';
+    const accent = selectAccentVoice(document.getElementById('speechAccent').value);
+    if (accent.voice) msg.voice = accent.voice;
+    msg.lang = accent.lang;
     msg.rate = Number(speed.value) || 1;
     msg.volume = 1;
     msg.onstart = () => {
         if (activeSpeech !== msg) return;
         clearTimeout(audioStartTimer);
-        status.textContent = 'Reproduciendo a ' + msg.rate + 'x…';
+        status.textContent = 'Reproduciendo (' + accent.label + ') a ' + msg.rate + 'x…' + accent.notice;
     };
     msg.onend = () => {
         if (activeSpeech !== msg) return;
         clearTimeout(audioStartTimer);
         activeSpeech = null;
-        status.textContent = 'Audio terminado. Puedes volver a escucharlo.';
+        status.textContent = 'Audio terminado. Puedes volver a escucharlo.' + accent.notice;
     };
     msg.onerror = event => {
         if (activeSpeech !== msg) return;
