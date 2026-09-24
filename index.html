@@ -114,7 +114,6 @@
 
     <button class="btn-primary" onclick="nextCard()">🎲 New Card</button>
     <button class="btn-listen" onclick="playQuestion()">🔊 Listen Question</button>
-    <button class="btn-listen" type="button" onclick="playQuestion(0.75)" aria-label="Listen to the question at 0.75x speed">🔊 Listen 0.75x</button>
     <p id="audioStatus" role="status" aria-live="polite"></p>
     <button class="btn-primary" onclick="toggleHint()">💡 Show Hint</button>
     <button class="btn-primary" onclick="toggleAnswer()">✅ Show Answer</button>
@@ -297,10 +296,9 @@ if ('speechSynthesis' in window) {
     window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
 }
 
-function playQuestion(rate) {
+function playQuestion() {
     const status = document.getElementById('audioStatus');
     const speed = document.getElementById('speechRate');
-    if (rate !== undefined) speed.value = String(rate);
     if (!currentCard) nextCard();
     if (!currentCard) {
         status.textContent = 'No hay una pregunta disponible. Revisa los filtros o espera a que carguen las tarjetas.';
